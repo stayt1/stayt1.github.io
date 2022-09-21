@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stayt1&#39;s blog</title>
+    <link>http://stayt1.github.io/</link>
+    <description>Recent content on stayt1&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Sep 2022 22:43:52 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://stayt1.github.io/about/</link>
+      <pubDate>Wed, 21 Sep 2022 23:00:52 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>http://stayt1.github.io/post/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Wed, 21 Sep 2022 22:43:52 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
+      <description>计算机网络简介 fdfdsfad 为什么要有计算网络</description>
+    </item>
+    
+  </channel>
+</rss>

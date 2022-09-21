@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://stayt1.github.io/sitemap.xml
