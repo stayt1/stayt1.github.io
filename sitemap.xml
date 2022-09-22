@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://stayt1.github.io/</loc>
+    <lastmod>2022-09-22T10:34:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tutorials/test/</loc>
+    <lastmod>2022-09-22T10:34:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tutorials/</loc>
+    <lastmod>2022-09-22T10:34:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://stayt1.github.io/about/</loc>
     <lastmod>2022-09-21T23:00:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -24,13 +45,6 @@
   
   <url>
     <loc>http://stayt1.github.io/tags/</loc>
-    <lastmod>2022-09-21T22:43:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/</loc>
     <lastmod>2022-09-21T22:43:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

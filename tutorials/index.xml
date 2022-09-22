@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Tao</title>
+    <link>http://stayt1.github.io/tutorials/</link>
+    <description>Recent content in Tutorials on Tao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Sep 2022 10:34:19 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://stayt1.github.io/tutorials/test/</link>
+      <pubDate>Thu, 22 Sep 2022 10:34:19 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/tutorials/test/</guid>
+      <description>First tutorial </description>
+    </item>
+    
+  </channel>
+</rss>
