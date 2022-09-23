@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://stayt1.github.io/categories/</loc>
+    <lastmod>2022-09-23T18:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/mcc/</loc>
+    <lastmod>2022-09-23T18:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/categories/mcc/</loc>
+    <lastmod>2022-09-23T18:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/</loc>
+    <lastmod>2022-09-23T18:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/</loc>
+    <lastmod>2022-09-23T18:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/</loc>
+    <lastmod>2022-09-23T18:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/mcc1/</loc>
+    <lastmod>2022-09-23T18:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://stayt1.github.io/tutorials/test/</loc>
     <lastmod>2022-09-22T10:34:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,13 +65,6 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/</loc>
-    <lastmod>2022-09-22T10:34:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://stayt1.github.io/about/</loc>
     <lastmod>2022-09-21T23:00:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,42 +72,21 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/categories/</loc>
+    <loc>http://stayt1.github.io/tags/cnet/</loc>
     <lastmod>2022-09-21T22:43:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/post/</loc>
+    <loc>http://stayt1.github.io/categories/cnet/</loc>
     <lastmod>2022-09-21T22:43:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/tags/</loc>
-    <lastmod>2022-09-21T22:43:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/post/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2022-09-21T22:43:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2022-09-21T22:43:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>http://stayt1.github.io/post/cnet1/</loc>
     <lastmod>2022-09-21T22:43:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
