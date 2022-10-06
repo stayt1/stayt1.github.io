@@ -2,6 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://stayt1.github.io/categories/</loc>
+    <lastmod>2022-10-06T23:59:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/</loc>
+    <lastmod>2022-10-06T23:59:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/</loc>
+    <lastmod>2022-10-06T23:59:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/</loc>
+    <lastmod>2022-10-06T23:59:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/%E8%BF%90%E5%8A%A8/</loc>
+    <lastmod>2022-10-06T23:59:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/categories/%E8%BF%90%E5%8A%A8/</loc>
+    <lastmod>2022-10-06T23:59:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/sports/</loc>
+    <lastmod>2022-10-06T23:59:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/workfromhome/</loc>
+    <lastmod>2022-10-06T21:52:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2022-10-06T21:52:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/categories/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2022-10-06T21:52:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/%E7%A7%91%E7%A0%94/</loc>
+    <lastmod>2022-10-06T21:51:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/categories/%E7%A7%91%E7%A0%94/</loc>
+    <lastmod>2022-10-06T21:51:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/scitool/</loc>
+    <lastmod>2022-10-06T21:51:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/%E8%AE%BA%E6%96%87/</loc>
+    <lastmod>2022-10-06T21:51:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/categories/%E8%AE%BA%E6%96%87/</loc>
+    <lastmod>2022-10-06T21:51:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://stayt1.github.io/tags/%E5%AE%A1%E7%A8%BF/</loc>
     <lastmod>2022-10-06T11:33:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -17,48 +122,6 @@
   
   <url>
     <loc>http://stayt1.github.io/post/ae/</loc>
-    <lastmod>2022-10-06T11:33:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/categories/</loc>
-    <lastmod>2022-10-06T11:33:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/post/</loc>
-    <lastmod>2022-10-06T11:33:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/tags/</loc>
-    <lastmod>2022-10-06T11:33:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/</loc>
-    <lastmod>2022-10-06T11:33:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/tags/%E8%AE%BA%E6%96%87/</loc>
-    <lastmod>2022-10-06T11:33:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/categories/%E8%AE%BA%E6%96%87/</loc>
     <lastmod>2022-10-06T11:33:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
