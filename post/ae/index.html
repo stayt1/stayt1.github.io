@@ -49,7 +49,7 @@
 <meta itemprop="name" content="Artifact Review">
 <meta itemprop="description" content="Artifact Review"><meta itemprop="datePublished" content="2022-10-06T11:33:05+08:00" />
 <meta itemprop="dateModified" content="2022-10-06T11:33:05+08:00" />
-<meta itemprop="wordCount" content="4957">
+<meta itemprop="wordCount" content="4943">
 <meta itemprop="keywords" content="论文,‘审稿’," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Artifact Review"/>
 <meta name="twitter:description" content="Artifact Review"/>
@@ -137,7 +137,7 @@
             <a href="/categories/%E8%AE%BA%E6%96%87/"> 论文 </a>
             <a href="/categories/%E5%AE%A1%E7%A8%BF/"> ‘审稿’ </a>
             </div>
-          <span class="more-meta"> 4957 words </span>
+          <span class="more-meta"> 4943 words </span>
           <span class="more-meta"> 10 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -148,7 +148,7 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#artifact-review">artifact review</a>
+    <li><a href="#artifact-review">Artifact Review</a>
       <ul>
         <li><a href="#ae使用的一些术语">AE使用的一些术语：</a></li>
         <li><a href="#ae的徽章">AE的徽章：</a></li>
@@ -162,14 +162,14 @@
   </div>
 </div>
     <div class="post-content">
-      <h1 id="artifact-review">artifact review</h1>
+      <h1 id="artifact-review">Artifact Review</h1>
 <p>笔者最近经历了一次 <code>artifact review</code> 的过程，心得这里记录一下。</p>
 <p>对于理论性学科，比如数学，有了惊天的结论，当然是可以只通过论文来达到作者的效果。但是对于一个高度 empirical 和 experimental 的领域里，evidence 是起码。没有evidence，根本谈不上什么贡献不贡献。对于计算机领域，evidence 就是代码。Talk is cheap, show me the code.</p>
 <p>没有开源代码或被人实现的论文，默认就是怀疑它有问题。给部分代码的论文，默认它部分实验有trick，敢直接给出完整代码的，那才是真正的solid。所以从侧面来说，不给代码确实给你省时间了，因为你可以考虑不看。你的数据或者代码除非是商业机密（其实不建议你来发论文），效果是显著的话，作者是非常期待向全世界展示他的结果的，而不是遮遮掩掩。</p>
 <p>近期，对于被接收的论文出了一项政策 Artifact Evaluation。在ACM、IEEE、USENIX等组织的会议上，论文作者在提交论文的同时，还能够提交AE（Artifact Evaluation），由独立的第三方对论文代码或系统的功能完备性、结果的可复现性等进行评估，以检验论文的结论有数据和实验的支持。一旦作者完成AE，则可获得对应的徽章并在论文首页展示。</p>
 <p>如今，越来越多的作者选择参加AE并在首页贴上徽章。以SOSP 2021为例，有40篇论文（占总数74%）提交了Artifact，包括软件实现、硬件实现、测试脚本和数据集等用于研究或实验的材料。其中，39篇论文的系统是“可获得的”，38篇论文的系统通过“功能完备”的评审，27篇论文的结果通过了“可重现”的评审。除SOSP外，OSDI、PPoPP、ASPLOS等计算机系统相关的会议都陆续增加了AE评审。</p>
-<p>Collberg等研究者统计了2011年到2013年期间8个计算机学术会议及5个计算机期刊的论文代码可获取与可复用的情况[6]，结果如图1所示。在排除需要特殊硬件（HW）、论文结果不需要代码支撑（NC）、论文作者存在冲突（EX）等论文之外，有近一半的论文无法提供源码（176/402，EM）。在能够提供源代码的工作中，只有60%的工作在论文发表后提供了公开可获取的源码（Article+Web），而剩下的40%是通过发送邮件向作者请求源码后获取。而在最终获取源码的这些工作中，有近40%的工作要么需要超过30分钟构建（OK&gt;30），有些作者声称在有限的修改后可以构建（OK Auth），甚至还有9份代码连原作者也承认构建中存在问题。这还仅仅只是在构建代码层面，而代码对应的论文中数据与结论是否能够由第三方在另外的系统中进一步复现就更不得而知了。在此背景下，独立的、用于评估论文实现以及结果可复现的AE流程应运而生。</p>
-<p>然而，引入AE的过程并非一帆风顺，很多人对于该流程存在不少顾虑[1]。首先，部分研究者认为如果强制进行AE，会对于论文作者不公平，毕竟作者可能耗费很长时间与人力资源才完成项目的工程构建。其次，有些研究者认为构建方便的可复用代码可能会耗费大量时间，而这样做能否带来足够的收益也不是很明确。此外，还有的项目可能是与工业界合作，项目代码涉及保密及所有权的问题。最后，如果某个会议强制要求AE，可能会导致论文的投稿数量下降。</p>
+<p>Collberg等研究者统计了2011年到2013年期间8个计算机学术会议及5个计算机期刊的论文代码可获取与可复用的情况，在排除需要特殊硬件（HW）、论文结果不需要代码支撑（NC）、论文作者存在冲突（EX）等论文之外，有近一半的论文无法提供源码（176/402，EM）。在能够提供源代码的工作中，只有60%的工作在论文发表后提供了公开可获取的源码（Article+Web），而剩下的40%是通过发送邮件向作者请求源码后获取。而在最终获取源码的这些工作中，有近40%的工作要么需要超过30分钟构建（OK&gt;30），有些作者声称在有限的修改后可以构建（OK Auth），甚至还有9份代码连原作者也承认构建中存在问题。这还仅仅只是在构建代码层面，而代码对应的论文中数据与结论是否能够由第三方在另外的系统中进一步复现就更不得而知了。在此背景下，独立的、用于评估论文实现以及结果可复现的AE流程应运而生。</p>
+<p>然而，引入AE的过程并非一帆风顺，很多人对于该流程存在不少顾虑。首先，部分研究者认为如果强制进行AE，会对于论文作者不公平，毕竟作者可能耗费很长时间与人力资源才完成项目的工程构建。其次，有些研究者认为构建方便的可复用代码可能会耗费大量时间，而这样做能否带来足够的收益也不是很明确。此外，还有的项目可能是与工业界合作，项目代码涉及保密及所有权的问题。最后，如果某个会议强制要求AE，可能会导致论文的投稿数量下降。</p>
 <p>考虑到上述顾虑，当前的AE流程普遍采用了以下原则。首先，大部分的AE与论文是否收录无关；即无论AE通过与否，都不会影响论文的接收。因此，即使AE评委认为提交的Artifact无法复用，或无法在AE评委的环境中复现论文的结果，都不会导致论文被拒收。其次，大部分会议并不强制进行AE。对于工作涉及保密的工作，作者可以选择不进行AE，或者进行AE但是选择Artifact不公开（即放弃Available认证）。在不选择Available认证的前提下，作者仍可以请求AE的评委对于论文的结果进行复现，提升数据与结果的可信度，而不必担心保密的代码被公开。</p>
 <p>通过这一系列措施，目前的AE流程对于不同类型的工作都十分友好，在考虑到不同工作的特殊性的前提下，尽可能地鼓励各位作者通过AE为社区快速发展作出贡献。</p>
 <p>AE的结果一般由徽章体现，不同的徽章表明提交的AE材料通过相应的审核。常见的徽章包括：可获得、功能完备、结果可复现，等等。</p>
@@ -203,12 +203,12 @@
 </ul>
 </div>
 <h2 id="观察与经验">观察与经验：</h2>
-<p>观察-1：大部分AE评委还是会选择在提供的机器上进行快速实验/复现。本文作者进行AE的两个工作的6个AE评委，均选择连接到提供的测试机器进行测试。当然，这一方面与论文工作都与具体类型的硬件相关，但经过与其他完成AE的同学交流，这具有一定普适性。因此，在提供机器上能否无障碍地快速实验就非常关键。
-经验-1：在提交AE文档之间，最好提前登录提供的AE账号，按照给出的手册重新完整运行一次进行检查，从而避免例如权限、文件绝对路径等问题。
-观察-2：根据AE期间的反馈，AE的评委还是非常欢迎这种最直接也是最便捷的方式进行复现。
-经验-2：对所有的实验，提供click-to-run脚本，其包含编译、测试、收集数据、画图等功能。同时，这些脚本的内在逻辑需要非常清晰，AE评委能够快速根据脚本理解各个部分的用途，以及找到对应源码的位置进行深入阅读。
-经验-3：可以通过样例输出对结果的清晰说明、解释。说明文档可以包含样例输出，以及输出对应到论文具体的表格与图，以及能够支撑具体第几页第几章第几行的结论，方便AE评委能够快速理解实验的数据，判断是否一致。
-经验-4：对所有的测试缩小测试规模，并写明如何在更大规模/重复测试、以及测试所需要的时间。AE的评委并非需要一个绝对稳定的数据（往往通过多次重复实验取平均实现），因此我们在提交的脚本中，最好默认采用一个较小的测试规模（即次数），从而尽可能缩小评估所要时间。但同时要说明如何进行更大规模（测试次数）测试，比如：“修改脚本中第几行的TIMES变量值来修改每个测试执行数”。此外，在说明文档里面包含每项测试或每个单元测试需要的时间，可以进一步减少AE评委在测试时的负担。</p>
+<p>观察-1：大部分AE评委还是会选择在提供的机器上进行快速实验/复现。本文作者进行AE的两个工作的6个AE评委，均选择连接到提供的测试机器进行测试。当然，这一方面与论文工作都与具体类型的硬件相关，但经过与其他完成AE的同学交流，这具有一定普适性。因此，在提供机器上能否无障碍地快速实验就非常关键。</p>
+<p>经验-1：在提交AE文档之间，最好提前登录提供的AE账号，按照给出的手册重新完整运行一次进行检查，从而避免例如权限、文件绝对路径等问题。</p>
+<p>观察-2：根据AE期间的反馈，AE的评委还是非常欢迎这种最直接也是最便捷的方式进行复现。</p>
+<p>经验-2：对所有的实验，提供click-to-run脚本，其包含编译、测试、收集数据、画图等功能。同时，这些脚本的内在逻辑需要非常清晰，AE评委能够快速根据脚本理解各个部分的用途，以及找到对应源码的位置进行深入阅读。</p>
+<p>经验-3：可以通过样例输出对结果的清晰说明、解释。说明文档可以包含样例输出，以及输出对应到论文具体的表格与图，以及能够支撑具体第几页第几章第几行的结论，方便AE评委能够快速理解实验的数据，判断是否一致。</p>
+<p>经验-4：对所有的测试缩小测试规模，并写明如何在更大规模/重复测试、以及测试所需要的时间。AE的评委并非需要一个绝对稳定的数据（往往通过多次重复实验取平均实现），因此我们在提交的脚本中，最好默认采用一个较小的测试规模（即次数），从而尽可能缩小评估所要时间。但同时要说明如何进行更大规模（测试次数）测试，比如：“修改脚本中第几行的TIMES变量值来修改每个测试执行数”。此外，在说明文档里面包含每项测试或每个单元测试需要的时间，可以进一步减少AE评委在测试时的负担。</p>
 <p>artifact evaluation的目的不是确认论文或者代码是“对”的，也不是要做code review，而是为了确认论文的claim和代码实现是consistent的。如果论文claim了错的东西，但是代码和它是consistent的，从artifact evaluation的角度看这个artifact是没问题的。目前artifact evaluation的实践确实就是要把代码跑一遍或多遍。对于有误差的部分，论文的作者有义务给出复现时可接受的误差范围。至于随机化参数的问题已经有一些解决方法了，比如deterministic container的技术，会将随机参数的种子确定下来，以便复现，虽然这么做也只是增加了一定程度的reproducibility，但总是比没有要好的。</p>
 <p>有时候我觉得AI/ML这个社区真的是很奇怪。一方面搞出来http://OpenReview.net和JMLR这样的publication mode，在我看来对于open science是非常进步的事情，但另一方面面对reproducibility的危机，对于在PL/SE/System领域已经广泛采用的artifact evaluation模式似乎毫无兴趣。比如按照ACM SIGPLAN使用的模式，论文被接受后会被邀请提交artifact（通常以配置好的虚拟机/Docker image的形式提交），这个artifact会被一个独立的evaluation committee来验证其是否可以支撑论文中的claim。代码能正常工作的话授予一个artifact functional/reproducible的章，代码完全开源并且有DOI的话再打一个artifact available的章，代码写得好有文档有注释再打一个artifact reusable的章。当然artifact不是评价文章的唯一标准，但有这些章无疑会增加文章的说服力。</p>
 <p>不是所有文章的模型都是google级别的，对于非常大的模型，也可以退而求其次，要求作者公开存档artifact，以后有人有资源和机会再来验证。至于所谓“极端情况”，打死也复现不出来这个模型效果，那么这种文章很可能连起码的scientifically sound的要求都没有达到，为什么要发表呢？没有统一的运行环境、各种随机参数和初始值、超参数、巨大的模型，这些正是产生reproducibility危机的原因。AI / ML社区需要做的正是解决这些问题。</p>
@@ -220,12 +220,12 @@
 </ul>
 <p>环境所迫：我一般对于某些地区的论文会特别谨慎。这些地区的共同特点是：科研评估指标非常强调论文数量（这些地区应该不难猜到，我就不点破啦）。在Tenure Track和Peer Pressure的双重作用下，研究人员不得不批量制造论文，不少论文只有故事，缺乏反复论证，可复现度相当低。</p>
 <h2 id="有用的链接">有用的链接</h2>
-<p><a href="https://www.zhihu.com/question/410991413">https://www.zhihu.com/question/410991413</a> 如何更好地公开质疑AI论文?
-<a href="https://www.zhihu.com/question/391094945">https://www.zhihu.com/question/391094945</a> 如何看待有些AI研究员所有的工作都不公布code?
-<a href="https://zhuanlan.zhihu.com/p/460805807">https://zhuanlan.zhihu.com/p/460805807</a> 系统研究与AE（Artifact Evaluation）
-<a href="https://www.usenix.org/conference/usenixsecurity22/artifact-appendix-guidelines">https://www.usenix.org/conference/usenixsecurity22/artifact-appendix-guidelines</a> USENIX Security &lsquo;22 Artifact Appendix Guidelines
-<a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current">https://www.acm.org/publications/policies/artifact-review-and-badging-current</a> ACM Artifact Review and Badging
-<a href="https://ctuning.org/">https://ctuning.org/</a> AE 辅助网站</p>
+<p><a href="https://www.zhihu.com/question/410991413">https://www.zhihu.com/question/410991413</a> 如何更好地公开质疑AI论文?</p>
+<p><a href="https://www.zhihu.com/question/391094945">https://www.zhihu.com/question/391094945</a> 如何看待有些AI研究员所有的工作都不公布code?</p>
+<p><a href="https://zhuanlan.zhihu.com/p/460805807">https://zhuanlan.zhihu.com/p/460805807</a> 系统研究与AE（Artifact Evaluation）</p>
+<p><a href="https://www.usenix.org/conference/usenixsecurity22/artifact-appendix-guidelines">https://www.usenix.org/conference/usenixsecurity22/artifact-appendix-guidelines</a> USENIX Security &lsquo;22 Artifact Appendix Guidelines</p>
+<p><a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current">https://www.acm.org/publications/policies/artifact-review-and-badging-current</a> ACM Artifact Review and Badging</p>
+<p><a href="https://ctuning.org/">https://ctuning.org/</a> AE 辅助网站</p>
 
     </div>
 
