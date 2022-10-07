@@ -6,14 +6,23 @@
     <description>Recent content on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Oct 2022 23:59:01 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Oct 2022 15:37:45 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Cheat Sheet</title>
+      <link>http://stayt1.github.io/post/hugo/</link>
+      <pubDate>Fri, 07 Oct 2022 15:37:45 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/hugo/</guid>
+      <description>&lt;p&gt;本文主要内容是测试 Hugo 对 Markdown 和 HTML 两种标记语言的支持情况，方便后续写作时查阅。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>运动健身</title>
       <link>http://stayt1.github.io/post/sports/</link>
       <pubDate>Thu, 06 Oct 2022 23:59:01 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/sports/</guid>
-      <description>最近收到朋友的款待，十分感谢，有一点发福了 150 斤。 我需要减肥到 120 斤， 以此记录。 时间 项目 6:00 起床 6:00-7:00 空腹有氧运动一小时 7:00-8:00 早餐 到实验室或教室 背单词 8:00-9:40 上</description>
+      <description>最近受到朋友的款待，十分感谢，有一点发福了 150 斤。 我需要减肥到 120 斤， 以此记录。 时间 项目 6:00 起床 6:00-7:00 空腹有氧运动一小时 7:00-8:00 早餐 到实验室或教室 背单词 8:00-9:40 上</description>
     </item>
     
     <item>
@@ -22,7 +31,7 @@
       <pubDate>Thu, 06 Oct 2022 21:52:49 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/workfromhome/</guid>
-      <description></description>
+      <description>心态 服务器交互 更快地使用浏览器 推荐使用crxMouse 手势 作用 ↓→ 关闭当前标签 ↓→↑ 打开一个新窗口 ← 返回 ←↑ 重新打开关闭的标签页 → 前进 →↓ 滚</description>
     </item>
     
     <item>
@@ -31,7 +40,7 @@
       <pubDate>Thu, 06 Oct 2022 21:51:15 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/scitool/</guid>
-      <description></description>
+      <description>心态 工欲善其事必先利其器。 但是切记别把学习的过程当成工具的使用过程，而应该把更多的时间用到基本原理的学习上，工具够用就行。 翻译 参考文献</description>
     </item>
     
     <item>
