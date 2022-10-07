@@ -224,30 +224,11 @@
 </tr>
 </tbody>
 </table>
-<div class="mermaid" align="
-                                left
-                            "> 
-    
-graph LR;
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-
-</div>
-
-
-
-
-<script>
-  mermaid.initialize({
-    sequence: { 
-    	showSequenceNumbers: false,
-    	actorMargin: 50, 
-    	diagramMarginX:10, 
-    	diagramMarginY:10 },
-  });
-</script>
+<p>graph LR;
+A[Hard edge] &ndash;&gt;|Link text| B(Round edge)
+B &ndash;&gt; C{Decision}
+C &ndash;&gt;|One| D[Result one]
+C &ndash;&gt;|Two| E[Result two]</p>
 <hr>
 <p><strong>运动说明</strong>:</p>
 <ul>
