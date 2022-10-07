@@ -6,7 +6,16 @@
     <description>Recent content on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Oct 2022 15:37:45 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Oct 2022 22:16:50 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装Anaconda</title>
+      <link>http://stayt1.github.io/post/conda/</link>
+      <pubDate>Fri, 07 Oct 2022 22:16:50 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/conda/</guid>
+      <description>本人原则：不适用任何IDE，VScode已经足够强大了（真正做到 all in one）。怎么方便怎么来，所以我选择 Anaconda。 虽然除了 conda</description>
+    </item>
+    
     <item>
       <title>Hugo Cheat Sheet</title>
       <link>http://stayt1.github.io/post/hugo/</link>
@@ -49,7 +58,7 @@
       <pubDate>Thu, 06 Oct 2022 11:33:05 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/ae/</guid>
-      <description>为什么要 Artifact Evaluation 笔者最近经历了一次 Artifact Evaluation 的过程，心得这里记录一下。 对于理论性学科，比如数学，有了惊天的结论，当然是可以只通过论文来达到作者的效果。</description>
+      <description>为什么要 Artifact Evaluation 省流：直接看这个 slide。 笔者最近经历了一次 Artifact Evaluation 的过程，心得这里记录一下。 对于理论性学科，比如数学，有了惊天的结论，当然是可以</description>
     </item>
     
     <item>

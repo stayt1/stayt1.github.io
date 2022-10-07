@@ -6,7 +6,25 @@
     <description>Recent content in Categories on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Oct 2022 15:37:45 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Oct 2022 22:16:50 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>http://stayt1.github.io/categories/python/</link>
+      <pubDate>Fri, 07 Oct 2022 22:16:50 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>安装</title>
+      <link>http://stayt1.github.io/categories/%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Fri, 07 Oct 2022 22:16:50 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/categories/%E5%AE%89%E8%A3%85/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hugo</title>
       <link>http://stayt1.github.io/categories/hugo/</link>

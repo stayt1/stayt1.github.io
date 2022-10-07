@@ -49,7 +49,7 @@
 <meta itemprop="name" content="Hugo Cheat Sheet">
 <meta itemprop="description" content="便捷查阅。"><meta itemprop="datePublished" content="2022-10-07T15:37:45+08:00" />
 <meta itemprop="dateModified" content="2022-10-07T15:37:45+08:00" />
-<meta itemprop="wordCount" content="1534">
+<meta itemprop="wordCount" content="2172">
 <meta itemprop="keywords" content="Hugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo Cheat Sheet"/>
 <meta name="twitter:description" content="便捷查阅。"/>
@@ -136,8 +136,8 @@
         <div class="post-category">
             <a href="/categories/hugo/"> Hugo </a>
             </div>
-          <span class="more-meta"> 1534 words </span>
-          <span class="more-meta"> 4 mins read </span>
+          <span class="more-meta"> 2172 words </span>
+          <span class="more-meta"> 5 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
     </header>
@@ -161,6 +161,7 @@
     <li><a href="#脚注-footnote">脚注 Footnote</a></li>
     <li><a href="#任务列表">任务列表</a></li>
     <li><a href="#note">Note</a></li>
+    <li><a href="#mermaid">Mermaid</a></li>
     <li><a href="#外部资源">外部资源</a></li>
     <li><a href="#杂项">杂项</a></li>
   </ul>
@@ -478,6 +479,122 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$</p>
 <li>example</li>
 <li>quote</li>
 </ul>
+<h1 id="mermaid">Mermaid</h1>
+<p>对于 <code>Hugo</code> 支持 Mermaid 略微有复杂，我们需要知道 <code>Hugo</code> 对于 <code>themes\even</code> 下的格式是怎么安排的。</p>
+<p>通过 mermaid 可以实现以纯文本的方式绘制流程图，序列图，甘特图、状态图、关系图…… 等。</p>
+<ul>
+<li>mermaid 官网： <a href="https://mermaidjs.github.io/">https://mermaidjs.github.io/</a></li>
+<li>这里有一个 mermaid 的在线编辑器，非常好用。 <a href="https://mermaid-js.github.io/mermaid-live-editor/">https://mermaid-js.github.io/mermaid-live-editor/</a> 在左边编辑，右边实时查看效果。编辑完还可以直接下载.svg 和.png 格式的图片。</li>
+</ul>
+<p>到 <code>Hugo</code> 当前站点目录的 <code>themes/模板名字/layouts/shortcodes/</code> 目录下，</p>
+<p>如果发现不存在 <code>shortcodes</code> 目录，就直接创建一个。</p>
+<p>创建一个文件名为: mermaid.html，内容如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&#34;mermaid&#34;</span> <span class="nx">align</span><span class="o">=</span><span class="s2">&#34;{{ if .Get &#34;</span><span class="nx">align</span><span class="s2">&#34; }}
+</span></span></span><span class="line"><span class="cl"><span class="s2">                                {{ .Get &#34;</span><span class="nx">align</span><span class="s2">&#34; }}
+</span></span></span><span class="line"><span class="cl"><span class="s2">                            {{ else }} 
+</span></span></span><span class="line"><span class="cl"><span class="s2">                                center
+</span></span></span><span class="line"><span class="cl"><span class="s2">                            {{ end }}&#34;</span><span class="o">&gt;</span> 
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="nx">safeHTML</span> <span class="p">.</span><span class="nx">Inner</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/div&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="k">if</span> <span class="p">.</span><span class="nx">Get</span> <span class="s2">&#34;loadMermaidJS&#34;</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;https://cdn.bootcdn.net/ajax/libs/mermaid/8.5.0/mermaid.core.js&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">mermaid</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">sequence</span><span class="o">:</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">    	<span class="nx">showSequenceNumbers</span><span class="o">:</span> <span class="p">{{</span> <span class="k">if</span> <span class="p">.</span><span class="nx">Get</span> <span class="s2">&#34;showSequenceNumbers&#34;</span> <span class="p">}}</span><span class="kc">true</span><span class="p">{{</span> <span class="k">else</span> <span class="p">}}</span><span class="kc">false</span><span class="p">{{</span> <span class="nx">end</span> <span class="p">}},</span>
+</span></span><span class="line"><span class="cl">    	<span class="nx">actorMargin</span><span class="o">:</span> <span class="p">{{</span> <span class="k">if</span> <span class="p">.</span><span class="nx">Get</span> <span class="s2">&#34;actorMargin&#34;</span> <span class="p">}}{{</span> <span class="p">.</span><span class="nx">Get</span> <span class="s2">&#34;actorMargin&#34;</span> <span class="p">}}{{</span> <span class="k">else</span> <span class="p">}}</span><span class="mi">50</span><span class="p">{{</span> <span class="nx">end</span> <span class="p">}},</span> 
+</span></span><span class="line"><span class="cl">    	<span class="nx">diagramMarginX</span><span class="o">:</span><span class="mi">10</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">    	<span class="nx">diagramMarginY</span><span class="o">:</span><span class="mi">10</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>注意其中的 .Get 各种参数，是可以在 Markdown 文件中赋值的。</p>
+<p>有些<a href="https://zhuanlan.zhihu.com/p/363943506">其它资料</a>，说是修改 <code>themes/模板名字/layouts/partials/footer.html</code>，添加.js 文件。</p>
+<p>这种效果不好。它会导致你整个网站的所有页面，全部都加载了.js 文件。但实际上，你可能只有一两篇文章需要画图。</p>
+<p>在文章中使用</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx"></span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>就会显示下面这样子的图： (下面是.svg 图片)
+<div class="mermaid" align=" 
+                                center
+                            "> 
+    
+classDiagram
+  Class01 <|-- AveryLongClass : Cool
+  Class03 *-- Class04
+  Class05 o-- Class06
+  Class07 .. Class08
+  Class09 --> C2 : Where am i?
+  Class09 --* C3
+  Class09 --|> Class07
+  Class07 : equals()
+  Class07 : Object[] elementData
+  Class01 : size()
+  Class01 : int chimp
+  Class01 : int gorilla
+  Class08 <--> C2: Cool label
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@8.8.2/dist/mermaid.min.js"></script>
+
+
+
+<script>
+  mermaid.initialize({
+    sequence: { 
+    	showSequenceNumbers: true,
+    	actorMargin:  130 , 
+    	diagramMarginX:10, 
+    	diagramMarginY:10 },
+  });
+</script>
+</p>
+<p>使用说明：</p>
+<ol>
+<li>如果你的一篇文章里，不止画一个图，那其中 loadMermaidJS=&ldquo;true&rdquo; 这个参数，只需要写一次。</li>
+<li>序列图要不要显示顺序数字，由 showSequenceNumbers=&ldquo;true&rdquo; 这个参数决定。</li>
+<li>其它各种参数的使用说明，建议到官网查看。 <a href="https://mermaidjs.github.io/">https://mermaidjs.github.io/</a></li>
+<li>你也可以自己修改 mermaid.html 文件，添加你想要的其它参数。</li>
+</ol>
 <h1 id="外部资源">外部资源</h1>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -537,7 +654,7 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$</p>
 <p>由于不是 Markdown 标准，所以这里就不测试了。</p>
 <hr>
 <div class="admonition tip"><p class="admonition-title">tip</p>
-<p>很大一部分内容来自<a href="https://edward852.github.io/post/markdown%E6%94%AF%E6%8C%81%E6%83%85%E5%86%B5%E6%B5%8B%E8%AF%95/">这里</a></p>
+<p>本文很大一部分内容来自<a href="https://edward852.github.io/post/markdown%E6%94%AF%E6%8C%81%E6%83%85%E5%86%B5%E6%B5%8B%E8%AF%95/">这里</a></p>
 <div class="admonition ">
 </div>
 </div>
@@ -549,7 +666,11 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$</p>
           <a href="/tags/hugo/">Hugo</a>
           </div>
       <nav class="post-nav">
-        
+        <a class="prev" href="/post/conda/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">安装Anaconda</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
         <a class="next" href="/post/sports/">
             <span class="next-text nav-default">运动健身</span>
             <span class="next-text nav-mobile">Next</span>

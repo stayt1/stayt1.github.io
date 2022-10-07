@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>安装 on 图南</title>
+    <link>http://stayt1.github.io/categories/%E5%AE%89%E8%A3%85/</link>
+    <description>Recent content in 安装 on 图南</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Oct 2022 22:16:50 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/categories/%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装Anaconda</title>
+      <link>http://stayt1.github.io/post/conda/</link>
+      <pubDate>Fri, 07 Oct 2022 22:16:50 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/conda/</guid>
+      <description>本人原则：不适用任何IDE，VScode已经足够强大了（真正做到 all in one）。怎么方便怎么来，所以我选择 Anaconda。 虽然除了 conda</description>
+    </item>
+    
+  </channel>
+</rss>

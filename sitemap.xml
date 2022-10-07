@@ -3,7 +3,63 @@
   
   <url>
     <loc>http://stayt1.github.io/categories/</loc>
-    <lastmod>2022-10-07T15:37:45+08:00</lastmod>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/</loc>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/python/</loc>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/categories/python/</loc>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/</loc>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/</loc>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/categories/%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/conda/</loc>
+    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -24,27 +80,6 @@
   
   <url>
     <loc>http://stayt1.github.io/post/hugo/</loc>
-    <lastmod>2022-10-07T15:37:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/post/</loc>
-    <lastmod>2022-10-07T15:37:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/tags/</loc>
-    <lastmod>2022-10-07T15:37:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/</loc>
     <lastmod>2022-10-07T15:37:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
