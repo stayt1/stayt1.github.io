@@ -49,7 +49,7 @@
 <meta itemprop="name" content="Hugo Cheat Sheet">
 <meta itemprop="description" content="便捷查阅。"><meta itemprop="datePublished" content="2022-10-07T15:37:45+08:00" />
 <meta itemprop="dateModified" content="2022-10-07T15:37:45+08:00" />
-<meta itemprop="wordCount" content="2172">
+<meta itemprop="wordCount" content="2217">
 <meta itemprop="keywords" content="Hugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo Cheat Sheet"/>
 <meta name="twitter:description" content="便捷查阅。"/>
@@ -136,7 +136,7 @@
         <div class="post-category">
             <a href="/categories/hugo/"> Hugo </a>
             </div>
-          <span class="more-meta"> 2172 words </span>
+          <span class="more-meta"> 2217 words </span>
           <span class="more-meta"> 5 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -149,7 +149,7 @@
   <ul>
     <li><a href="#标题">标题</a></li>
     <li><a href="#段落">段落</a></li>
-    <li><a href="#文本样式--字体样式">文本样式 {# 字体样式}</a></li>
+    <li><a href="#文本样式">文本样式</a></li>
     <li><a href="#列表">列表</a></li>
     <li><a href="#图片">图片</a></li>
     <li><a href="#链接">链接</a></li>
@@ -193,7 +193,7 @@
 &hellip;
 段落一的第 N 行</p>
 <p>段落二的第一行</p>
-<h1 id="文本样式--字体样式">文本样式 {# 字体样式}</h1>
+<h1 id="文本样式">文本样式</h1>
 <p>字体样式常用的有粗体、斜体、删除线等。</p>
 <p><code>* 斜体字 *</code> 对应 * 斜体字 *</p>
 <p><code>** 粗体字 **</code> 对应 ** 粗体字 **</p>
@@ -548,7 +548,42 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx"></span>
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><div class="mermaid" align=" 
+                                center
+                            "> 
+    
+classDiagram
+  Class01 <|-- AveryLongClass : Cool
+  Class03 *-- Class04
+  Class05 o-- Class06
+  Class07 .. Class08
+  Class09 --> C2 : Where am i?
+  Class09 --* C3
+  Class09 --|> Class07
+  Class07 : equals()
+  Class07 : Object[] elementData
+  Class01 : size()
+  Class01 : int chimp
+  Class01 : int gorilla
+  Class08 <--> C2: Cool label
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@8.8.2/dist/mermaid.min.js"></script>
+
+
+
+<script>
+  mermaid.initialize({
+    sequence: { 
+    	showSequenceNumbers: true,
+    	actorMargin:  130 , 
+    	diagramMarginX:10, 
+    	diagramMarginY:10 },
+  });
+</script>
+
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>就会显示下面这样子的图： (下面是.svg 图片)
@@ -610,16 +645,16 @@ classDiagram
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;max-width: 100%&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">class</span><span class="o">=</span><span class="s">&#34;music163&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">frameborder</span><span class="o">=</span><span class="s">&#34;no&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">border</span><span class="o">=</span><span class="s">&#34;0&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">marginwidth</span><span class="o">=</span><span class="s">&#34;0&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">marginheight</span><span class="o">=</span><span class="s">&#34;0&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">width</span><span class="o">=</span><span class="s">&#34;330&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">height</span><span class="o">=</span><span class="s">&#34;86&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">src</span><span class="o">=</span><span class="s">&#34;//music.163.com/outchain/player?type=2&amp;id=1330348068&amp;auto=0&amp;height=66&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  &lt;iframe style=&#34;max-width: 100%&#34;
+</span></span><span class="line"><span class="cl">      class=&#34;music163&#34;
+</span></span><span class="line"><span class="cl">      frameborder=&#34;no&#34;
+</span></span><span class="line"><span class="cl">      border=&#34;0&#34;
+</span></span><span class="line"><span class="cl">      marginwidth=&#34;0&#34;
+</span></span><span class="line"><span class="cl">      marginheight=&#34;0&#34;
+</span></span><span class="line"><span class="cl">      width=&#34;330&#34;
+</span></span><span class="line"><span class="cl">      height=&#34;86&#34;
+</span></span><span class="line"><span class="cl">      src=&#34;//music.163.com/outchain/player?type=2&amp;id=1330348068&amp;auto=0&amp;height=66&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;/iframe&gt;
 </span></span></code></pre></td></tr></table>
 </div>
 </div>  <iframe style="max-width: 100%"
@@ -640,10 +675,10 @@ classDiagram
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://www.youtube-nocookie.com/embed/FUQheX3PSnY&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34;</span> <span class="na">allowfullscreen</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;YouTube Video&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+</span></span><span class="line"><span class="cl">  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/FUQheX3PSnY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
 </span></span></code></pre></td></tr></table>
 </div>
 </div><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -660,7 +695,21 @@ classDiagram
 </div>
     </div>
 
-    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Tao YANG</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2022-10-07
+        
+    </span>
+  </p>
+  
+  
+</div>
 <footer class="post-footer">
       <div class="post-tags">
           <a href="/tags/hugo/">Hugo</a>
@@ -668,7 +717,7 @@ classDiagram
       <nav class="post-nav">
         <a class="prev" href="/post/conda/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">安装Anaconda</span>
+            <span class="prev-text nav-default">安装 Anaconda</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         <a class="next" href="/post/sports/">
