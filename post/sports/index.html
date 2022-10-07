@@ -37,29 +37,6 @@
 
 <link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-<script
-  src="https://cdn.jsdelivr.net/npm/mermaid@8.8.2/dist/mermaid.min.js"
-  integrity="sha256-KqisLh8jVMBRjpNkOhH5W9VWs+F6x6vQksLqxs7+x9A="
-  crossorigin="anonymous"
-></script>
-<script>
-  
-  Array.from(document.getElementsByClassName("language-mermaid")).forEach(
-    (el) => {
-      el.parentElement.outerHTML = `<div class="mermaid">${el.innerText}</div>`;
-    }
-  );
-</script>
-<style>
-   
-  .mermaid svg {
-    display: block;
-    margin: auto;
-  }
-</style>
-
-
-
 
 
 <meta property="og:title" content="运动健身" />
@@ -72,7 +49,7 @@
 <meta itemprop="name" content="运动健身">
 <meta itemprop="description" content="运动带来的是快乐与满足是发自内心的，是对自我的真正肯定和欣赏。"><meta itemprop="datePublished" content="2022-10-06T23:59:01+08:00" />
 <meta itemprop="dateModified" content="2022-10-06T23:59:01+08:00" />
-<meta itemprop="wordCount" content="504">
+<meta itemprop="wordCount" content="536">
 <meta itemprop="keywords" content="运动," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="运动健身"/>
 <meta name="twitter:description" content="运动带来的是快乐与满足是发自内心的，是对自我的真正肯定和欣赏。"/>
@@ -159,7 +136,7 @@
         <div class="post-category">
             <a href="/categories/%E8%BF%90%E5%8A%A8/"> 运动 </a>
             </div>
-          <span class="more-meta"> 504 words </span>
+          <span class="more-meta"> 536 words </span>
           <span class="more-meta"> 2 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -247,11 +224,42 @@
 </tr>
 </tbody>
 </table>
-<p>graph LR;
-A[Hard edge] &ndash;&gt;|Link text| B(Round edge)
-B &ndash;&gt; C{Decision}
-C &ndash;&gt;|One| D[Result one]
-C &ndash;&gt;|Two| E[Result two]</p>
+<div class="mermaid" align=" 
+                                center
+                            "> 
+    
+classDiagram
+  Class01 <|-- AveryLongClass : Cool
+  Class03 *-- Class04
+  Class05 o-- Class06
+  Class07 .. Class08
+  Class09 --> C2 : Where am i?
+  Class09 --* C3
+  Class09 --|> Class07
+  Class07 : equals()
+  Class07 : Object[] elementData
+  Class01 : size()
+  Class01 : int chimp
+  Class01 : int gorilla
+  Class08 <--> C2: Cool label
+
+</div>
+
+
+<script src="https://cdn.bootcdn.net/ajax/libs/mermaid/8.5.0/mermaid.core.js"></script>
+
+
+
+<script>
+  mermaid.initialize({
+    sequence: { 
+    	showSequenceNumbers: true,
+    	actorMargin:  130 , 
+    	diagramMarginX:10, 
+    	diagramMarginY:10 },
+  });
+</script>
+
 <hr>
 <p><strong>运动说明</strong>:</p>
 <ul>
@@ -375,28 +383,6 @@ C &ndash;&gt;|Two| E[Result two]</p>
 
 
 
-
-
-<script
-  src="https://cdn.jsdelivr.net/npm/mermaid@8.8.2/dist/mermaid.min.js"
-  integrity="sha256-KqisLh8jVMBRjpNkOhH5W9VWs+F6x6vQksLqxs7+x9A="
-  crossorigin="anonymous"
-></script>
-<script>
-  
-  Array.from(document.getElementsByClassName("language-mermaid")).forEach(
-    (el) => {
-      el.parentElement.outerHTML = `<div class="mermaid">${el.innerText}</div>`;
-    }
-  );
-</script>
-<style>
-   
-  .mermaid svg {
-    display: block;
-    margin: auto;
-  }
-</style>
 
 </body>
 </html>
