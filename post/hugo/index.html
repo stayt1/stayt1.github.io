@@ -49,7 +49,7 @@
 <meta itemprop="name" content="Hugo Cheat Sheet">
 <meta itemprop="description" content="便捷查阅。"><meta itemprop="datePublished" content="2022-10-07T15:37:45+08:00" />
 <meta itemprop="dateModified" content="2022-10-07T15:37:45+08:00" />
-<meta itemprop="wordCount" content="2217">
+<meta itemprop="wordCount" content="2251">
 <meta itemprop="keywords" content="Hugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo Cheat Sheet"/>
 <meta name="twitter:description" content="便捷查阅。"/>
@@ -136,7 +136,7 @@
         <div class="post-category">
             <a href="/categories/hugo/"> Hugo </a>
             </div>
-          <span class="more-meta"> 2217 words </span>
+          <span class="more-meta"> 2251 words </span>
           <span class="more-meta"> 5 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -197,12 +197,12 @@
 <p>字体样式常用的有粗体、斜体、删除线等。</p>
 <p><code>* 斜体字 *</code> 对应 * 斜体字 *</p>
 <p><code>** 粗体字 **</code> 对应 ** 粗体字 **</p>
-<p><code>~~ 删除线~~</code> 对应 ~~ 删除线~~</p>
+<p><code>~~删除线~~</code> 对应 <del>删除线</del></p>
 <p><code>` 行内代码 `</code> 对应 <code>行内代码</code></p>
 <p>还有一些样式原生不支持，但是可以通过 html 间接支持。</p>
-<p><code>&lt;u&gt; 下划线 &lt;/u&gt;</code> 对应 <u > 下划线 </u></p>
+<p><code>&lt;u&gt;下划线 &lt;/u&gt;</code> 对应 <u >下划线 </u></p>
 <p><code>H&lt;sub&gt;2&lt;/sub&gt;O</code> 对应 H<sub>2</sub>O</p>
-<p><code> 爆米 &lt;sup&gt;TM&lt;/sup&gt;</code> 对应 爆米 &lt; sup&gt;TM</sup></p>
+<p><code> 爆米&lt;sup&gt;TM&lt;/sup&gt;</code> 对应 爆米<sup>TM</sup></p>
 <p><code>&lt;span style=&quot;color: orange&quot;&gt;前景色 &lt;/span&gt;</code> 对应 <span style="color: orange"> 前景色</span></p>
 <p><code>&lt;span style=&quot;background: orange&quot;&gt;背景色 &lt;/span&gt;</code> 对应 <span style="background: orange"> 背景色</span></p>
 <h1 id="列表">列表</h1>
@@ -278,7 +278,7 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[文字描述](#target)
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>跳转回本章节起始位置☞ <a href="#links">back</a> 。</p>
+</div><p>跳转回本章节起始位置☞ <a href="#%E6%A0%87%E9%A2%98">back</a> 。</p>
 <h1 id="引用与代码">引用与代码</h1>
 <p>引用名人名言：</p>
 <div class="highlight"><div class="chroma">
@@ -428,9 +428,9 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$</p>
 <h1 id="脚注-footnote">脚注 Footnote</h1>
 <p>脚注主要有数字脚注 [^1] 和命名脚注[^emoj]。
 在文章末尾行首以下面的方式可以定义脚注：
-<code>[^ 数字]: 数字脚注内容 </code>
-<code>[^ 名字]: 命名脚注内容 </code>
-在文中通过 <code>[^ 数字]</code> 或者 <code>[^ 名字]</code> 引用即可。
+<code>[^数字]: 数字脚注内容 </code>
+<code>[^名字]: 命名脚注内容 </code>
+在文中通过 <code>[^数字]</code> 或者 <code>[^名字]</code> 引用即可。
 不过命名脚注显示在页面上还是数字脚注的形式。。。</p>
 <h1 id="任务列表">任务列表</h1>
 <p>任务列表是在无序列表的基础上扩展的，属于 GFM 标准。</p>
@@ -548,7 +548,7 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><div class="mermaid" align=" 
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"><div class="mermaid" align=" 
                                 center
                             "> 
     
@@ -695,21 +695,7 @@ classDiagram
 </div>
     </div>
 
-    <div class="post-copyright">
-  <p class="copyright-item">
-    <span class="item-title">Author</span>
-    <span class="item-content">Tao YANG</span>
-  </p>
-  <p class="copyright-item">
-    <span class="item-title">LastMod</span>
-    <span class="item-content">
-        2022-10-07
-        
-    </span>
-  </p>
-  
-  
-</div>
+    
 <footer class="post-footer">
       <div class="post-tags">
           <a href="/tags/hugo/">Hugo</a>
