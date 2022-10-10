@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Oct 2022 22:16:50 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Oct 2022 13:08:33 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>年少有为</title>
+      <link>http://stayt1.github.io/post/think/</link>
+      <pubDate>Mon, 10 Oct 2022 13:08:33 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/think/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>安装 Anaconda</title>
       <link>http://stayt1.github.io/post/conda/</link>
