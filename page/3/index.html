@@ -117,9 +117,17 @@
       </li>
   </ul>
 </nav>
-<div class="post-password">
-  
-</div>
+<script>
+   (function(){
+       if(''){
+           if (prompt('请输入文章密码') !== ''){
+               alert('密码错误！');
+               history.back();
+           }
+       }
+   })();
+</script>
+
     </header>
 
     <main id="main" class="main">
