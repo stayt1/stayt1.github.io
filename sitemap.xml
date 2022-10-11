@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://stayt1.github.io/categories/</loc>
+    <lastmod>2022-10-11T14:36:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/hugo2/</loc>
+    <lastmod>2022-10-11T14:36:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/hugo%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-10-11T14:36:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/</loc>
+    <lastmod>2022-10-11T14:36:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/tags/</loc>
+    <lastmod>2022-10-11T14:36:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/categories/%E4%BB%A3%E7%A0%81/</loc>
+    <lastmod>2022-10-11T14:36:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/</loc>
+    <lastmod>2022-10-11T14:36:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://stayt1.github.io/paper/linux/</loc>
     <lastmod>2022-10-10T22:04:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,29 +65,8 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/</loc>
-    <lastmod>2022-10-10T22:04:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://stayt1.github.io/paper/writing/</loc>
     <lastmod>2022-10-10T21:55:35+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/categories/</loc>
-    <lastmod>2022-10-10T16:31:18+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/post/</loc>
-    <lastmod>2022-10-10T16:31:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -107,13 +135,6 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/categories/%E4%BB%A3%E7%A0%81/</loc>
-    <lastmod>2022-10-07T22:16:50+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://stayt1.github.io/post/conda/</loc>
     <lastmod>2022-10-07T22:16:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -121,7 +142,7 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/post/hugo/</loc>
+    <loc>http://stayt1.github.io/post/hugo1/</loc>
     <lastmod>2022-10-07T15:37:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -165,13 +186,6 @@
   <url>
     <loc>http://stayt1.github.io/post/notation/</loc>
     <lastmod>2022-09-24T02:57:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/tags/</loc>
-    <lastmod>2022-09-23T18:30:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
