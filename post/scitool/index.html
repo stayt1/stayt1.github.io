@@ -49,7 +49,7 @@
 <meta itemprop="name" content="科研工具">
 <meta itemprop="description" content="工欲善其事必先利其器。"><meta itemprop="datePublished" content="2022-10-06T21:51:15+08:00" />
 <meta itemprop="dateModified" content="2022-10-06T21:51:15+08:00" />
-<meta itemprop="wordCount" content="75">
+<meta itemprop="wordCount" content="1382">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="科研工具"/>
 <meta name="twitter:description" content="工欲善其事必先利其器。"/>
@@ -146,8 +146,8 @@
         <div class="post-category">
             <a href="/categories/%E7%A7%91%E7%A0%94/"> 科研 </a>
             </div>
-          <span class="more-meta"> 75 words </span>
-          <span class="more-meta"> 1 min read </span>
+          <span class="more-meta"> 1382 words </span>
+          <span class="more-meta"> 3 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
     </header>
@@ -158,10 +158,38 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#心态">心态</a></li>
-    <li><a href="#翻译词典">翻译词典</a></li>
-    <li><a href="#参考文献">参考文献</a></li>
-    <li><a href="#git--tmux">Git &amp; Tmux</a></li>
+    <li><a href="#翻译词典">翻译词典</a>
+      <ul>
+        <li><a href="#词典">词典</a></li>
+        <li><a href="#翻译">翻译</a></li>
+      </ul>
+    </li>
+    <li><a href="#思维导图">思维导图</a></li>
+    <li><a href="#文献">文献</a>
+      <ul>
+        <li><a href="#管理">管理</a></li>
+        <li><a href="#参考">参考</a></li>
+      </ul>
+    </li>
+    <li><a href="#git-常用命令">Git 常用命令</a></li>
+    <li><a href="#tmux">Tmux</a>
+      <ul>
+        <li><a href="#为什么选择-tumx">为什么选择 tumx？</a></li>
+        <li><a href="#tldr">TLDR</a></li>
+        <li><a href="#基本概念">基本概念</a></li>
+        <li><a href="#tmux-常用命令">Tmux 常用命令</a></li>
+        <li><a href="#快捷键">快捷键</a>
+          <ul>
+            <li><a href="#系统操作">系统操作</a></li>
+            <li><a href="#窗口操作">窗口操作</a></li>
+            <li><a href="#面板操作">面板操作</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#vim-常用命令">Vim 常用命令</a></li>
     <li><a href="#wandb">wandb</a></li>
+    <li><a href="#huggingface">Huggingface</a></li>
   </ul>
 </nav>
   </div>
@@ -171,11 +199,225 @@
 <p>工欲善其事必先利其器。</p>
 <p>但是切记别把学习的过程当成工具的使用过程，而应该把更多的时间用到基本原理的学习上，工具够用就行。</p>
 <h1 id="翻译词典">翻译词典</h1>
-<p>DeepL</p>
-<h1 id="参考文献">参考文献</h1>
-<p><a href="https://www.bilibili.com/video/BV1PN4y1L7ti/">https://www.bilibili.com/video/BV1PN4y1L7ti/</a></p>
-<h1 id="git--tmux">Git &amp; Tmux</h1>
+<h2 id="词典">词典</h2>
+<ul>
+<li>LDOCE5++ En-Cn V1.35（朗文双语）（电子版）</li>
+<li>Longman Collocations Dictionary and Thesaurus（电子版）</li>
+<li>朗文当代高级-第四版（纸质版）</li>
+</ul>
+<h2 id="翻译">翻译</h2>
+<ul>
+<li>论API
+<ul>
+<li>DeepL</li>
+</ul>
+</li>
+</ul>
+<h1 id="思维导图">思维导图</h1>
+<h1 id="文献">文献</h1>
+<h2 id="管理">管理</h2>
+<ul>
+<li>不使用任何辅助软件管理参考文献，重命名文件管理即可。</li>
+</ul>
+<h2 id="参考">参考</h2>
+<p>Bibtex</p>
+<h1 id="git-常用命令">Git 常用命令</h1>
+<h1 id="tmux">Tmux</h1>
+<h2 id="为什么选择-tumx">为什么选择 tumx？</h2>
+<p align="center">
+    <img src="https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2020/09/Best-Free-Open-Source-Terminal-Multiplexers.png" width="300" />
+</p>
+每当开启一个新的会话时，Tmux 都会先读取 `~/.tmux.conf` 这个文件。该文件中存放的就是对 Tmux 的配置。
+<h2 id="tldr">TLDR</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tmux ls : 列出所有的会话
+</span></span><span class="line"><span class="cl">tmux attach -t session： 连接之前的会话
+</span></span><span class="line"><span class="cl">tmux new -s session ：新建会话
+</span></span><span class="line"><span class="cl">tmux kill-session -t name: kill 会话
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="基本概念">基本概念</h2>
+<p>窗口（Window）
+若要创建一个窗口，只需要按下 <code>Ctrl-b c</code>；若要切换窗口，只需要先按下 <code>Ctrl-b</code>，然后再按下想切换的窗口所对应的数字，该数字会紧挨着窗口的名字显示。
+窗格（Pane）
+窗口是个窗格容器
+会话（Session）</p>
+<h2 id="tmux-常用命令">Tmux 常用命令</h2>
+<ul>
+<li>安装</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt-get install tmux
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>启动与退出
+安装完成后，键入 <code>tmux</code> 命令，就进入了 Tmux 窗口。按下 <code>Ctrl+d</code> 或者显式输入 <code>exit</code> 命令，就可以退出 Tmux 窗口。</li>
+<li>前缀键
+Tmux 窗口有大量的快捷键。所有快捷键都要通过前缀键唤起。默认的前缀键是 <code>Ctrl+b</code>，即先按下 <code>Ctrl+b</code>，快捷键才会生效。举例来说，帮助命令的快捷键是 <code>Ctrl+b ?</code>。它的用法是，在 Tmux 窗口中，先按下 <code>Ctrl+b</code>，再按下 <code>?</code>，就会显示帮助信息。然后，按下 <code>ESC</code> 键或 <code>q</code> 键，就可以退出帮助。</li>
+<li>新建会话</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tmux new -s &lt;session-name&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>分离会话</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tmux detach
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>tmux ls</code> 命令可以查看当前所有的 Tmux 会话。</p>
+<ul>
+<li>接入会话</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tmux attach -t
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>杀死会话</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tmux kill-session -t
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>切换会话</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tmux switch -t
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>划分窗格</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ tmux split-window
+</span></span><span class="line"><span class="cl"># 划分左右两个窗格
+</span></span><span class="line"><span class="cl">$ tmux split-window -h
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>移动光标</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 光标切换到上方窗格
+</span></span><span class="line"><span class="cl">$ tmux select-pane -U
+</span></span><span class="line"><span class="cl"># 光标切换到下方窗格
+</span></span><span class="line"><span class="cl">$ tmux select-pane -D
+</span></span><span class="line"><span class="cl"># 光标切换到左边窗格
+</span></span><span class="line"><span class="cl">$ tmux select-pane -L
+</span></span><span class="line"><span class="cl"># 光标切换到右边窗格
+</span></span><span class="line"><span class="cl">$ tmux select-pane -R
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>tmux 上下移动光标
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ctrl+b
+</span></span><span class="line"><span class="cl">:set -g mouse on
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<h2 id="快捷键">快捷键</h2>
+<p><code>Ctrl + b</code> 激活控制台</p>
+<h3 id="系统操作">系统操作</h3>
+<dl>
+<dt>?	列出所有快捷键；按q返回</dt>
+<dt>d	脱离当前会话；这样可以暂时返回Shell界面，输入tmux attach能够重新进入之前的会话</dt>
+<dt>D	选择要脱离的会话；在同时开启了多个会话时使用</dt>
+<dt>Ctrl+z	挂起当前会话</dt>
+<dt>r	强制重绘未脱离的会话</dt>
+<dt>s	选择并切换会话；在同时开启了多个会话时使用</dt>
+<dd>进入命令行模式；此时可以输入支持的命令，例如kill-server可以关闭服务器
+[	进入复制模式；此时的操作与vi/emacs相同，按q/Esc退出
+~	列出提示信息缓存；其中包含了之前tmux返回的各种提示信息</dd>
+</dl>
+<h3 id="窗口操作">窗口操作</h3>
+<p>c	创建新窗口
+&amp;	关闭当前窗口
+数字键	切换至指定窗口
+p	切换至上一窗口
+n	切换至下一窗口
+l	在前后两个窗口间互相切换
+w	通过窗口列表切换窗口
+,	重命名当前窗口；这样便于识别
+.	修改当前窗口编号；相当于窗口重新排序
+f	在所有窗口中查找指定文本</p>
+<h3 id="面板操作">面板操作</h3>
+<p>”	        将当前面板平分为上下两块
+%	        将当前面板平分为左右两块
+x	        关闭当前面板
+!	        将当前面板置于新窗口；即新建一个窗口，其中仅包含当前面板
+Ctrl+方向键	以1个单元格为单位移动边缘以调整当前面板大小
+Alt+方向键	以5个单元格为单位移动边缘以调整当前面板大小
+Space	        在预置的面板布局中循环切换；依次包括even-horizontal、even-vertical、main-horizontal、main-vertical、tiled
+q	        显示面板编号
+o	        在当前窗口中选择下一面板
+方向键	        移动光标以选择面板
+{	        向前置换当前面板
+}	        向后置换当前面板
+Alt+o	        逆时针旋转当前窗口的面板
+Ctrl+o	        顺时针旋转当前窗口的面板</p>
+<h1 id="vim-常用命令">Vim 常用命令</h1>
 <h1 id="wandb">wandb</h1>
+<h1 id="huggingface">Huggingface</h1>
 
     </div>
 
