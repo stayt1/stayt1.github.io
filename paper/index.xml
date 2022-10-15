@@ -6,7 +6,16 @@
     <description>Recent content in Papers on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Oct 2022 15:08:26 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/paper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Oct 2022 13:59:17 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liandan</title>
+      <link>http://stayt1.github.io/paper/liandan/</link>
+      <pubDate>Sat, 15 Oct 2022 13:59:17 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/paper/liandan/</guid>
+      <description>梦中情 Studio 怎么霸占 GPU 深度学习代码 炼丹技巧 命令行工具 tldr wd fzf zsh/oh-my-zsh/zsh-syntax-highlighting/zsh-autosuggestion tmux Vim beginner Vim i → Insert Mode ESC→Normal Mode :wq → save + exit :q! → unsaved + exit p → paste In other OS, command is Ctrl. However, in Vim Normal</description>
+    </item>
+    
     <item>
       <title>常用链接</title>
       <link>http://stayt1.github.io/paper/links/</link>
@@ -22,7 +31,7 @@
       <pubDate>Mon, 10 Oct 2022 22:04:40 +0800</pubDate>
       
       <guid>http://stayt1.github.io/paper/linux/</guid>
-      <description>File move or rename file1 to file2 1 mv file1 file2 System display who is online 1 w 查看用户登录历史 1 last 踢出用户： 1 #pkill -KILL -t pts/0 ##pts/0 为 w 指令看到的用户终端号</description>
+      <description>File move or rename file1 to file2 1 mv file1 file2 System display who is online 1 w 查看用户登录历史 1 last 踢出用户： 1 # pkill -KILL -t pts/0 ##pts/0 为 w 指令看到的用户终端号</description>
     </item>
     
     <item>
@@ -31,7 +40,7 @@
       <pubDate>Mon, 10 Oct 2022 21:55:35 +0800</pubDate>
       
       <guid>http://stayt1.github.io/paper/writing/</guid>
-      <description>原则 英文 https://github.com/writing-resources/awesome-scientific-writing 中文 复旦SE MLNLP 工具 图片 Inkscape Visio MLNLP 表格 Tablesgenerator latex-tables</description>
+      <description>原则 英文 https://github.com/writing-resources/awesome-scientific-writing 自动化工具 grammarly check word to use 搜词 thesaurus 高级词 ludwig 用来润色 中文 复旦SE MLNLP 工具 图片 Inkscape Visio MLNLP 表格 Tablesgenerator latex-tables</description>
     </item>
     
     <item>
