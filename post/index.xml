@@ -67,7 +67,7 @@
       <pubDate>Thu, 06 Oct 2022 21:52:49 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/workfromhome/</guid>
-      <description>心态 服务器交互 更快地使用浏览器 推荐使用crxMouse 手势 作用 ↓→ 关闭当前标签 ↓→↑ 打开一个新窗口 ← 返回 ←↑ 重新打开关闭的标签页 → 前进 →↓ 滚</description>
+      <description>心态 服务器交互 远程访问 没有公网ip，但是能访问互联网 frp teamviewer 向日葵 免密登录 1 2 3 ssh-keygen scp id_rsa.pub dlnlp@102.10.60.23:/home/dlnlp # 传文件 cat id_rsa.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys SSH &amp;amp; Tmux 如果我们还不希望 ssh 断开后导致训练任</description>
     </item>
     
     <item>
