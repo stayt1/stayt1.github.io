@@ -3,14 +3,21 @@
   
   <url>
     <loc>http://stayt1.github.io/paper/</loc>
-    <lastmod>2022-10-16T13:31:23+08:00</lastmod>
+    <lastmod>2022-10-24T00:35:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://stayt1.github.io/</loc>
-    <lastmod>2022-10-16T13:31:23+08:00</lastmod>
+    <lastmod>2022-10-24T00:35:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/paper/failfast/</loc>
+    <lastmod>2022-10-24T00:35:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

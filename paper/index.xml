@@ -6,7 +6,16 @@
     <description>Recent content in Papers on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Oct 2022 13:31:23 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/paper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Oct 2022 00:35:31 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>快速失败</title>
+      <link>http://stayt1.github.io/paper/failfast/</link>
+      <pubDate>Mon, 24 Oct 2022 00:35:31 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/paper/failfast/</guid>
+      <description>“Fail fast, fail often” is a familiar mantra in Silicon Valley. — James Surowiecki, The New Yorker</description>
+    </item>
+    
     <item>
       <title>摘抄</title>
       <link>http://stayt1.github.io/paper/zhaichao/</link>
@@ -31,7 +40,7 @@
       <pubDate>Tue, 11 Oct 2022 15:08:26 +0800</pubDate>
       
       <guid>http://stayt1.github.io/paper/links/</guid>
-      <description>每天一刷 描述 网址 代码 Leetcode 牛客 牛客 英语 新概念 李笑来 目标网站 描述 网址 实习 EPFL PhD Cornell PhD Cornell 科研网站 会议期刊 描述 网址 智能 AI 安全 SEC CCF-DDL CCF-DDL CCF CCF 内容检索 论文写作 详见</description>
+      <description>每天一刷 描述 网址 代码 Leetcode 牛客 牛客 英语 新概念 李笑来 目标网站 描述 网址 实习研一下 EPFL 实习研二 NEC PhD Cornell PhD Cornell 科研网站 会议期刊 描述 网址 智能 AI 安全 SEC CCF-DDL CCF-DDL CCF CCF 内容</description>
     </item>
     
     <item>
