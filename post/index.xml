@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Oct 2022 14:36:31 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 17:22:40 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP协议</title>
+      <link>http://stayt1.github.io/post/http/</link>
+      <pubDate>Thu, 27 Oct 2022 17:22:40 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/http/</guid>
+      <description>HTTP/HTTPS 简介 HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写，是用于从万维网（ WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。 HTTP 是一个基于 TCP/IP</description>
+    </item>
+    
     <item>
       <title>Hugo Work Flow</title>
       <link>http://stayt1.github.io/post/hugo2/</link>
@@ -107,12 +116,12 @@
     </item>
     
     <item>
-      <title>计算机网络1</title>
+      <title>Computer Networks and the Internet</title>
       <link>http://stayt1.github.io/post/cnet1/</link>
       <pubDate>Wed, 21 Sep 2022 22:43:52 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/cnet1/</guid>
-      <description>计算机网络简介 123456 还在学校 为什么要有计算网络</description>
+      <description></description>
     </item>
     
   </channel>

@@ -49,7 +49,7 @@
 <meta itemprop="name" content="科研工具">
 <meta itemprop="description" content="工欲善其事必先利其器。"><meta itemprop="datePublished" content="2022-10-06T21:51:15+08:00" />
 <meta itemprop="dateModified" content="2022-10-06T21:51:15+08:00" />
-<meta itemprop="wordCount" content="1476">
+<meta itemprop="wordCount" content="2414">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="科研工具"/>
 <meta name="twitter:description" content="工欲善其事必先利其器。"/>
@@ -146,8 +146,8 @@
         <div class="post-category">
             <a href="/categories/%E7%A7%91%E7%A0%94/"> 科研 </a>
             </div>
-          <span class="more-meta"> 1476 words </span>
-          <span class="more-meta"> 3 mins read </span>
+          <span class="more-meta"> 2414 words </span>
+          <span class="more-meta"> 5 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
     </header>
@@ -190,7 +190,17 @@
     <li><a href="#vim-常用命令">Vim 常用命令</a></li>
     <li><a href="#wandb">wandb</a></li>
     <li><a href="#huggingface">Huggingface</a></li>
-    <li><a href="#vscode-常用快捷键-1">VScode 常用快捷键 </a></li>
+    <li><a href="#vscode-常用快捷键-1-2">VScode 常用快捷键  </a>
+      <ul>
+        <li><a href="#全局快捷键">全局快捷键</a></li>
+        <li><a href="#导航">导航</a></li>
+        <li><a href="#文本编辑">文本编辑</a></li>
+        <li><a href="#代码编辑">代码编辑</a></li>
+        <li><a href="#查找">查找</a></li>
+        <li><a href="#光标">光标</a></li>
+        <li><a href="#debug-调试">Debug 调试</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -496,12 +506,432 @@
 </div><h1 id="vim-常用命令">Vim 常用命令</h1>
 <h1 id="wandb">wandb</h1>
 <h1 id="huggingface">Huggingface</h1>
-<h1 id="vscode-常用快捷键-1">VScode 常用快捷键 <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h1>
+<h1 id="vscode-常用快捷键-1-2">VScode 常用快捷键 <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h1>
+<h2 id="全局快捷键">全局快捷键</h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + Shift + P，F1</code></td>
+<td>显示命令面板</td>
+</tr>
+<tr>
+<td><code>Ctrl + P</code></td>
+<td>快速打开，转到文件&hellip;</td>
+</tr>
+<tr>
+<td><code>Ctrl +  N </code></td>
+<td>新建实例</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + N</code></td>
+<td>新建窗口</td>
+</tr>
+<tr>
+<td><code>Ctrl  + W </code></td>
+<td>关闭窗口</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + W</code></td>
+<td>关闭实例</td>
+</tr>
+<tr>
+<td><code>Ctrl + ,</code></td>
+<td>编辑器设置</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + S</code></td>
+<td>键盘快捷键</td>
+</tr>
+</tbody>
+</table>
+<h2 id="导航">导航</h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + T          </code></td>
+<td>显示所有符号</td>
+</tr>
+<tr>
+<td><code>Ctrl + G          </code></td>
+<td>显示所有符号</td>
+</tr>
+<tr>
+<td><code>Ctrl + P          </code></td>
+<td>转到文件&hellip;</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + O  </code></td>
+<td>转到符号&hellip;</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + M  </code></td>
+<td>显示问题面板</td>
+</tr>
+<tr>
+<td><code>F8                </code></td>
+<td>转到下一个错误或警告</td>
+</tr>
+<tr>
+<td><code>Shift + F8        </code></td>
+<td>转到上一个错误或警告</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + Tab</code></td>
+<td>浏览编辑器组的历史记录</td>
+</tr>
+<tr>
+<td><code>Alt + ←           </code></td>
+<td>后退</td>
+</tr>
+<tr>
+<td><code>Alt + →           </code></td>
+<td>前进</td>
+</tr>
+<tr>
+<td><code>Ctrl + M          </code></td>
+<td>切换标签可移动焦点</td>
+</tr>
+</tbody>
+</table>
+<h2 id="文本编辑">文本编辑</h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + X          </code></td>
+<td>剪切一行 (未选取时)</td>
+</tr>
+<tr>
+<td><code>Ctrl + C          </code></td>
+<td>复制一行 (未选取时)</td>
+</tr>
+<tr>
+<td><code>Alt + ↑           </code></td>
+<td>向上移动行</td>
+</tr>
+<tr>
+<td><code>Alt + ↓           </code></td>
+<td>向下移动行</td>
+</tr>
+<tr>
+<td><code>Shift + Alt + ↑   </code></td>
+<td>在上面复制当前行</td>
+</tr>
+<tr>
+<td><code>Shift + Alt + ↓   </code></td>
+<td>在下面复制当前行</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + K  </code></td>
+<td>删除一行</td>
+</tr>
+<tr>
+<td><code>Ctrl + Enter      </code></td>
+<td>在下面插入行</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + Ent</code>er</td>
+<td>在上方插入行</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + \  </code></td>
+<td>跳转到匹配的括号</td>
+</tr>
+<tr>
+<td><code>Ctrl + ]          </code></td>
+<td>增加缩进</td>
+</tr>
+<tr>
+<td><code>Ctrl + [          </code></td>
+<td>减少缩进</td>
+</tr>
+<tr>
+<td><code>Home              </code></td>
+<td>转到行首</td>
+</tr>
+<tr>
+<td><code>End               </code></td>
+<td>转到行尾</td>
+</tr>
+<tr>
+<td><code>Ctrl + Home       </code></td>
+<td>转到文件开头</td>
+</tr>
+<tr>
+<td><code>Ctrl + End        </code></td>
+<td>转到文件末尾</td>
+</tr>
+<tr>
+<td><code>Ctrl + ↑          </code></td>
+<td>向上滚动行</td>
+</tr>
+<tr>
+<td><code>Ctrl + ↓          </code></td>
+<td>向下滚动行</td>
+</tr>
+<tr>
+<td><code>Alt + PgUp        </code></td>
+<td>向上滚动页面</td>
+</tr>
+<tr>
+<td><code>Alt + PgDn        </code></td>
+<td>向下滚动页面</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + [  </code></td>
+<td>折叠区域</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + ]  </code></td>
+<td>展开区域</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + [</code></td>
+<td>折叠所有子区域</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + ]</code></td>
+<td>展开所有子区域</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + 0</code></td>
+<td>折叠所有区域</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + J</code></td>
+<td>展开所有区域</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + C</code></td>
+<td>添加行注释</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + U</code></td>
+<td>删除行注释</td>
+</tr>
+<tr>
+<td><code>Ctrl + /          </code></td>
+<td>切换行注释</td>
+</tr>
+<tr>
+<td><code>Shift + Alt + A   </code></td>
+<td>切换块注释</td>
+</tr>
+<tr>
+<td><code>Alt + Z           </code></td>
+<td>切换自动换行</td>
+</tr>
+</tbody>
+</table>
+<h2 id="代码编辑">代码编辑</h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + Space        </code></td>
+<td>显示成员列表</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + Space</code></td>
+<td>显示参数提示</td>
+</tr>
+<tr>
+<td><code>Shift + Alt + F     </code></td>
+<td>格式化代码</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + F  </code></td>
+<td>格式化选择</td>
+</tr>
+<tr>
+<td><code>F12                 </code></td>
+<td>转到定义</td>
+</tr>
+<tr>
+<td><code>Alt + F12           </code></td>
+<td>查看定义</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，F12       </code></td>
+<td>在侧面打开定义</td>
+</tr>
+<tr>
+<td><code>Ctrl + .            </code></td>
+<td>快速修复</td>
+</tr>
+<tr>
+<td><code>Shift + F12         </code></td>
+<td>显示参考</td>
+</tr>
+<tr>
+<td><code>F2                  </code></td>
+<td>重命名符号</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + X  </code></td>
+<td>删除每一行行尾空格</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，M         </code></td>
+<td>切换代码语言</td>
+</tr>
+</tbody>
+</table>
+<h2 id="查找">查找</h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + F</code></td>
+<td>查找</td>
+</tr>
+<tr>
+<td><code>Ctrl + H</code></td>
+<td>替换</td>
+</tr>
+<tr>
+<td><code>Ctrl+ Shift + F</code></td>
+<td>全局查找</td>
+</tr>
+<tr>
+<td><code>Ctrl+ Shift + H</code></td>
+<td>全局替换</td>
+</tr>
+</tbody>
+</table>
+<h2 id="光标">光标</h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Alt + (鼠标点击)             </code></td>
+<td>插入光标</td>
+</tr>
+<tr>
+<td><code>Ctrl + Alt + ↑               </code></td>
+<td>在上方插入光标</td>
+</tr>
+<tr>
+<td><code>Ctrl + Alt + ↓               </code></td>
+<td>在下方插入光标</td>
+</tr>
+<tr>
+<td><code>Ctrl + U                     </code></td>
+<td>撤消上一个光标操作</td>
+</tr>
+<tr>
+<td><code>Shift + Alt + I              </code></td>
+<td>在所选的每一行的末尾插入光标</td>
+</tr>
+<tr>
+<td><code>Ctrl + L                     </code></td>
+<td>选择当前行</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + L             </code></td>
+<td>选择所有当前选择</td>
+</tr>
+<tr>
+<td><code>Ctrl + F2                    </code></td>
+<td>选择所有出现的当前单词</td>
+</tr>
+<tr>
+<td><code>Shift + Alt + →              </code></td>
+<td>扩展选择</td>
+</tr>
+<tr>
+<td><code>Shift + Alt + ←              </code></td>
+<td>收缩选择</td>
+</tr>
+<tr>
+<td><code>Shift + Alt + (拖曳鼠标)     </code></td>
+<td>列（框）选择</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + Alt + (箭头键)</code></td>
+<td>列（框）选择</td>
+</tr>
+</tbody>
+</table>
+<h2 id="debug-调试">Debug 调试</h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>F9                </code></td>
+<td>插入断点</td>
+</tr>
+<tr>
+<td><code>F5                </code></td>
+<td>开始 / 继续</td>
+</tr>
+<tr>
+<td><code>Shift + F5        </code></td>
+<td>停止</td>
+</tr>
+<tr>
+<td><code>F11               </code></td>
+<td>步进</td>
+</tr>
+<tr>
+<td><code>Shift + F11       </code></td>
+<td>步出</td>
+</tr>
+<tr>
+<td><code>F10               </code></td>
+<td>步过</td>
+</tr>
+<tr>
+<td><code>Ctrl + K，Ctrl + I</code></td>
+<td>显示悬停</td>
+</tr>
+</tbody>
+</table>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Ref 韩骏 《VScode 权威指南》&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>韩骏 《VScode 权威指南》&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

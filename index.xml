@@ -6,7 +6,16 @@
     <description>Recent content on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Oct 2022 00:35:31 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 17:22:40 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP协议</title>
+      <link>http://stayt1.github.io/post/http/</link>
+      <pubDate>Thu, 27 Oct 2022 17:22:40 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/http/</guid>
+      <description>HTTP/HTTPS 简介 HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写，是用于从万维网（ WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。 HTTP 是一个基于 TCP/IP</description>
+    </item>
+    
     <item>
       <title>快速失败</title>
       <link>http://stayt1.github.io/paper/failfast/</link>
@@ -40,7 +49,7 @@
       <pubDate>Tue, 11 Oct 2022 15:08:26 +0800</pubDate>
       
       <guid>http://stayt1.github.io/paper/links/</guid>
-      <description>每天一刷 描述 网址 代码 Leetcode 牛客 牛客 英语 新概念 李笑来 目标网站 描述 网址 实习研一下 EPFL 实习研二 NEC PhD Cornell PhD Cornell 科研网站 会议期刊 描述 网址 智能 AI 安全 SEC CCF-DDL CCF-DDL CCF CCF 内容</description>
+      <description>每天一刷 描述 网址 代码 Leetcode 牛客 牛客 英语 新概念 李笑来 目标网站 描述 网址 实习研一下 EPFL 实习研一下 ETH 实习研二 NEC PhD Cornell PhD Cornell 科研网站 会议期刊 描述 网址 智能 AI 安全 SEC</description>
     </item>
     
     <item>
@@ -80,12 +89,12 @@
     </item>
     
     <item>
-      <title>20221010</title>
-      <link>http://stayt1.github.io/word/20221010/</link>
+      <title>步步努力</title>
+      <link>http://stayt1.github.io/archive/workhard/</link>
       <pubDate>Mon, 10 Oct 2022 15:16:14 +0800</pubDate>
       
-      <guid>http://stayt1.github.io/word/20221010/</guid>
-      <description></description>
+      <guid>http://stayt1.github.io/archive/workhard/</guid>
+      <description>哲学三大问 我是谁？我从哪里来？要到哪里去？是经典的哲学三大问。不记得什么时候听到的这三个问题，不知道大家是否听说过它们。虽说这几个问题没有明</description>
     </item>
     
     <item>
@@ -197,12 +206,12 @@
     </item>
     
     <item>
-      <title>计算机网络1</title>
+      <title>Computer Networks and the Internet</title>
       <link>http://stayt1.github.io/post/cnet1/</link>
       <pubDate>Wed, 21 Sep 2022 22:43:52 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/cnet1/</guid>
-      <description>计算机网络简介 123456 还在学校 为什么要有计算网络</description>
+      <description></description>
     </item>
     
   </channel>
