@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo笔记 on 图南</title>
+    <link>http://stayt1.github.io/tags/hugo%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in Hugo笔记 on 图南</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Oct 2022 14:36:31 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/tags/hugo%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Work Flow</title>
+      <link>http://stayt1.github.io/post/hugo2/</link>
+      <pubDate>Tue, 11 Oct 2022 14:36:31 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/hugo2/</guid>
+      <description>文件目录设置 https://hugo.aiaide.com/ 结合 Github Action https://www.zhihu.com/people/ivy-69-71-51/posts 搜索</description>
+    </item>
+    
+    <item>
+      <title>Hugo Cheat Sheet</title>
+      <link>http://stayt1.github.io/post/hugo1/</link>
+      <pubDate>Fri, 07 Oct 2022 15:37:45 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/hugo1/</guid>
+      <description>&lt;p&gt;本文主要内容是测试 Hugo 对 Markdown 和 HTML 两种标记语言的支持情况，方便后续写作时查阅。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

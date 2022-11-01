@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>科研 on 图南</title>
+    <link>http://stayt1.github.io/categories/%E7%A7%91%E7%A0%94/</link>
+    <description>Recent content in 科研 on 图南</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Oct 2022 21:51:15 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/categories/%E7%A7%91%E7%A0%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>科研工具</title>
+      <link>http://stayt1.github.io/post/scitool/</link>
+      <pubDate>Thu, 06 Oct 2022 21:51:15 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/scitool/</guid>
+      <description>心态 tips 工欲善其事必先利其器。 It&amp;rsquo;s better when it&amp;rsquo;s simple. 但是切记别把学习的过程当成工具的使用过程，而应该把更多的时间用到基本原理的学习上，工具够用就行。 翻译词</description>
+    </item>
+    
+    <item>
+      <title>Artifact Evaluation</title>
+      <link>http://stayt1.github.io/post/ae/</link>
+      <pubDate>Thu, 06 Oct 2022 11:33:05 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/ae/</guid>
+      <description>为什么要 Artifact Evaluation 省流：直接看这个 slide。 笔者最近经历了一次 Artifact Evaluation 的过程，心得这里记录一下。 对于理论性学科，比如数学，有了惊天的结论，当然是可以</description>
+    </item>
+    
+  </channel>
+</rss>

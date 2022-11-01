@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 图南</title>
+    <link>http://stayt1.github.io/post/</link>
+    <description>Recent content in Posts on 图南</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Oct 2022 17:22:40 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP协议</title>
+      <link>http://stayt1.github.io/post/http/</link>
+      <pubDate>Thu, 27 Oct 2022 17:22:40 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/http/</guid>
+      <description>HTTP/HTTPS 简介 HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写，是用于从万维网（ WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。 HTTP 是一个基于 TCP/IP</description>
+    </item>
+    
+    <item>
+      <title>Hugo Work Flow</title>
+      <link>http://stayt1.github.io/post/hugo2/</link>
+      <pubDate>Tue, 11 Oct 2022 14:36:31 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/hugo2/</guid>
+      <description>文件目录设置 https://hugo.aiaide.com/ 结合 Github Action https://www.zhihu.com/people/ivy-69-71-51/posts 搜索</description>
+    </item>
+    
+    <item>
+      <title>生活</title>
+      <link>http://stayt1.github.io/post/life/</link>
+      <pubDate>Mon, 10 Oct 2022 16:31:18 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/life/</guid>
+      <description>吃饭 生吃 熟食 最省事的做饭方法（焖饭） 食材：胡萝卜，玉米，香菇，玉米，香肠，土豆，豌豆 辅料：盐，生抽，老抽，食用油 30min 主料：五花肉（约150克）</description>
+    </item>
+    
+    <item>
+      <title>年少有为</title>
+      <link>http://stayt1.github.io/post/think/</link>
+      <pubDate>Mon, 10 Oct 2022 13:08:33 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/think/</guid>
+      <description>等我以後賺到錢 我就給你買大房子 漂亮的車子 大大的鑽石 你喜歡什麼我都買給你</description>
+    </item>
+    
+    <item>
+      <title>安装 Anaconda</title>
+      <link>http://stayt1.github.io/post/conda/</link>
+      <pubDate>Fri, 07 Oct 2022 22:16:50 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/conda/</guid>
+      <description>本人原则：不适用任何 IDE，VScode 已经足够强大了（真正做到 all in one）。怎么方便怎么来，所以我选择 Anaconda。 虽然除了 conda</description>
+    </item>
+    
+    <item>
+      <title>Hugo Cheat Sheet</title>
+      <link>http://stayt1.github.io/post/hugo1/</link>
+      <pubDate>Fri, 07 Oct 2022 15:37:45 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/hugo1/</guid>
+      <description>&lt;p&gt;本文主要内容是测试 Hugo 对 Markdown 和 HTML 两种标记语言的支持情况，方便后续写作时查阅。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>运动健身</title>
+      <link>http://stayt1.github.io/post/sports/</link>
+      <pubDate>Thu, 06 Oct 2022 23:59:01 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/sports/</guid>
+      <description>最近受到朋友的款待，十分感谢，有一点发福了 150 斤。 我需要减肥到 120 斤， 以此记录。 运动说明: 只能先减肥再健身。 控制饮食，不吃高热高糖高盐 买一个体重</description>
+    </item>
+    
+    <item>
+      <title>在家工作</title>
+      <link>http://stayt1.github.io/post/workfromhome/</link>
+      <pubDate>Thu, 06 Oct 2022 21:52:49 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/workfromhome/</guid>
+      <description>心态 服务器交互 远程访问 没有公网ip，但是能访问互联网 frp teamviewer 向日葵 免密登录 1 2 3 ssh-keygen scp id_rsa.pub tao@IPv4:/home/tao # 传文件 cat id_rsa.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys SSH &amp;amp; Tmux 如果我们还不希望 ssh 断开后导致训练任</description>
+    </item>
+    
+    <item>
+      <title>科研工具</title>
+      <link>http://stayt1.github.io/post/scitool/</link>
+      <pubDate>Thu, 06 Oct 2022 21:51:15 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/scitool/</guid>
+      <description>心态 tips 工欲善其事必先利其器。 It&amp;rsquo;s better when it&amp;rsquo;s simple. 但是切记别把学习的过程当成工具的使用过程，而应该把更多的时间用到基本原理的学习上，工具够用就行。 翻译词</description>
+    </item>
+    
+    <item>
+      <title>Artifact Evaluation</title>
+      <link>http://stayt1.github.io/post/ae/</link>
+      <pubDate>Thu, 06 Oct 2022 11:33:05 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/ae/</guid>
+      <description>为什么要 Artifact Evaluation 省流：直接看这个 slide。 笔者最近经历了一次 Artifact Evaluation 的过程，心得这里记录一下。 对于理论性学科，比如数学，有了惊天的结论，当然是可以</description>
+    </item>
+    
+    <item>
+      <title>Notation</title>
+      <link>http://stayt1.github.io/post/notation/</link>
+      <pubDate>Sat, 24 Sep 2022 02:57:45 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/notation/</guid>
+      <description>本网站使用记号 符号是语言的一部分，因此统一符号有助于顺畅高效、无歧义的交流。不少同一个事物在不同的地方使用了不同的符号，这里对应用数学时（对</description>
+    </item>
+    
+    <item>
+      <title>移动云计算1</title>
+      <link>http://stayt1.github.io/post/mcc1/</link>
+      <pubDate>Fri, 23 Sep 2022 18:30:14 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/mcc1/</guid>
+      <description>云是一种服务 云计算是将我们传统的IT工作转为以网络为依托的云平台运行，NIST（美国国家标准与技术研究院）在2011年下半年公布了云计算定义</description>
+    </item>
+    
+    <item>
+      <title>Computer Networks and the Internet</title>
+      <link>http://stayt1.github.io/post/cnet1/</link>
+      <pubDate>Wed, 21 Sep 2022 22:43:52 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/cnet1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

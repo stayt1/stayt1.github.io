@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活 on 图南</title>
+    <link>http://stayt1.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on 图南</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Oct 2022 16:31:18 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生活</title>
+      <link>http://stayt1.github.io/post/life/</link>
+      <pubDate>Mon, 10 Oct 2022 16:31:18 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/life/</guid>
+      <description>吃饭 生吃 熟食 最省事的做饭方法（焖饭） 食材：胡萝卜，玉米，香菇，玉米，香肠，土豆，豌豆 辅料：盐，生抽，老抽，食用油 30min 主料：五花肉（约150克）</description>
+    </item>
+    
+    <item>
+      <title>运动健身</title>
+      <link>http://stayt1.github.io/post/sports/</link>
+      <pubDate>Thu, 06 Oct 2022 23:59:01 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/sports/</guid>
+      <description>最近受到朋友的款待，十分感谢，有一点发福了 150 斤。 我需要减肥到 120 斤， 以此记录。 运动说明: 只能先减肥再健身。 控制饮食，不吃高热高糖高盐 买一个体重</description>
+    </item>
+    
+    <item>
+      <title>在家工作</title>
+      <link>http://stayt1.github.io/post/workfromhome/</link>
+      <pubDate>Thu, 06 Oct 2022 21:52:49 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/workfromhome/</guid>
+      <description>心态 服务器交互 远程访问 没有公网ip，但是能访问互联网 frp teamviewer 向日葵 免密登录 1 2 3 ssh-keygen scp id_rsa.pub tao@IPv4:/home/tao # 传文件 cat id_rsa.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys SSH &amp;amp; Tmux 如果我们还不希望 ssh 断开后导致训练任</description>
+    </item>
+    
+  </channel>
+</rss>
