@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writings on 图南</title>
+    <link>http://stayt1.github.io/writing/</link>
+    <description>Recent content in Writings on 图南</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Nov 2022 17:19:52 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time</title>
+      <link>http://stayt1.github.io/writing/time/</link>
+      <pubDate>Tue, 01 Nov 2022 17:19:52 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/time/</guid>
+      <description>如何把握住时间？ 其实时间和效率一直是一起谈论的，节约时间，提升效率。但是，时间是一种资源，而且是有限的资源，所以，我们需要把握住时间，把握住</description>
+    </item>
+    
+    <item>
+      <title>快速失败</title>
+      <link>http://stayt1.github.io/writing/failfast/</link>
+      <pubDate>Mon, 24 Oct 2022 00:35:31 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/failfast/</guid>
+      <description>“Fail fast, fail often” is a familiar mantra in Silicon Valley. — James Surowiecki, The New Yorker</description>
+    </item>
+    
+    <item>
+      <title>摘抄</title>
+      <link>http://stayt1.github.io/writing/zhaichao/</link>
+      <pubDate>Sun, 16 Oct 2022 13:31:23 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/zhaichao/</guid>
+      <description>Mind your self Show me the code 谢绝 PUA 做实验要有方案 话语 老师指导的好，我就是做做实验而已 学习了 同门 能和你进行讨论，给出一些小 Tips，可以介绍相关领域的论文，</description>
+    </item>
+    
+    <item>
+      <title>Liandan</title>
+      <link>http://stayt1.github.io/writing/liandan/</link>
+      <pubDate>Sat, 15 Oct 2022 13:59:17 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/liandan/</guid>
+      <description>梦中情 Studio 怎么获取算力 深度学习代码 炼丹技巧 一般代码都用.py文件，而可视化一定要用jupyter. 安装 cuda + cudnn + pytorch 三件套 1 2 3 conda install cudatoolkit=11.7 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/win-64/ conda install cudnn=8.4 -c</description>
+    </item>
+    
+    <item>
+      <title>常用链接</title>
+      <link>http://stayt1.github.io/writing/links/</link>
+      <pubDate>Tue, 11 Oct 2022 15:08:26 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/links/</guid>
+      <description>每天一刷 描述 网址 代码 Leetcode 牛客 牛客 英语 新概念 李笑来 目标网站 描述 网址 实习研一下 EPFL 实习研一下 ETH 实习研二 NEC PhD Cornell PhD Cornell 科研网站 会议期刊 描述 网址 智能 AI 安全 SEC</description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://stayt1.github.io/writing/linux/</link>
+      <pubDate>Mon, 10 Oct 2022 22:04:40 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/linux/</guid>
+      <description>File move or rename file1 to file2 1 mv file1 file2 System display who is online 1 w 查看用户登录历史 1 last 踢出用户： 1 # pkill -KILL -t pts/0 ##pts/0 为 w 指令看到的用户终端号</description>
+    </item>
+    
+    <item>
+      <title>怎么写论文？</title>
+      <link>http://stayt1.github.io/writing/writing/</link>
+      <pubDate>Mon, 10 Oct 2022 21:55:35 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/writing/</guid>
+      <description>原则 英文 https://github.com/writing-resources/awesome-scientific-writing 自动化工具 grammarly check word to use 搜词 thesaurus 高级词 ludwig 用来润色 中文 复旦SE MLNLP 工具 图片 Inkscape Visio MLNLP 表格 Tablesgenerator latex-tables</description>
+    </item>
+    
+    <item>
+      <title>步步努力</title>
+      <link>http://stayt1.github.io/writing/workhard/</link>
+      <pubDate>Mon, 10 Oct 2022 15:16:14 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/workhard/</guid>
+      <description>哲学三大问 我是谁？我从哪里来？要到哪里去？是经典的哲学三大问。不记得什么时候听到的这三个问题，不知道大家是否听说过它们。虽说这几个问题没有明</description>
+    </item>
+    
+    <item>
+      <title>Entropy</title>
+      <link>http://stayt1.github.io/writing/entropy/</link>
+      <pubDate>Sun, 09 Oct 2022 20:51:08 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/entropy/</guid>
+      <description>Formulating Guessing Difficulty 猜测模型:对于口令分布 $\mathcal{X}$ ，其中一个口令可以视为从口令分布的一个抽样 $x \in \mathcal{X}$，其对应的概率为 $p_x$。我们使用 $N$ 来</description>
+    </item>
+    
+    <item>
+      <title>XCFG</title>
+      <link>http://stayt1.github.io/writing/xcfg/</link>
+      <pubDate>Sun, 09 Oct 2022 20:50:35 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/writing/xcfg/</guid>
+      <description>new</description>
+    </item>
+    
+  </channel>
+</rss>
