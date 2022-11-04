@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>互联网设备 - 图南</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Tao YANG" /><meta name="description" content="互联网设备 Reapter 中继器 和 Hub 集线器 集线器的工作原理：一个接口进入的数据，其他端口进行泛洪。 集线器带来的两大问题： 二层环路会造成广播风暴，影响通讯效" /><meta name="keywords" content="jincheng, blog, backend, go" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.103.1 with theme even" />
+
+
+<link rel="canonical" href="http://stayt1.github.io/post/device/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="互联网设备" />
+<meta property="og:description" content="互联网设备 Reapter 中继器 和 Hub 集线器 集线器的工作原理：一个接口进入的数据，其他端口进行泛洪。 集线器带来的两大问题： 二层环路会造成广播风暴，影响通讯效" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://stayt1.github.io/post/device/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-11-03T16:42:54+08:00" />
+<meta property="article:modified_time" content="2022-11-03T16:42:54+08:00" />
+
+<meta itemprop="name" content="互联网设备">
+<meta itemprop="description" content="互联网设备 Reapter 中继器 和 Hub 集线器 集线器的工作原理：一个接口进入的数据，其他端口进行泛洪。 集线器带来的两大问题： 二层环路会造成广播风暴，影响通讯效"><meta itemprop="datePublished" content="2022-11-03T16:42:54+08:00" />
+<meta itemprop="dateModified" content="2022-11-03T16:42:54+08:00" />
+<meta itemprop="wordCount" content="2444">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="互联网设备"/>
+<meta name="twitter:description" content="互联网设备 Reapter 中继器 和 Hub 集线器 集线器的工作原理：一个接口进入的数据，其他端口进行泛洪。 集线器带来的两大问题： 二层环路会造成广播风暴，影响通讯效"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">图南</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">全部文章</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">图南</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">全部文章</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li>
+  </ul>
+</nav>
+<script>
+   (function(){
+       if(''){
+           if (prompt('请输入文章密码') !== ''){
+               alert('密码错误！');
+               history.back();
+           }
+       }
+   })();
+</script>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">互联网设备</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2022-11-03 </span>
+        
+          <span class="more-meta"> 2444 words </span>
+          <span class="more-meta"> 5 mins read </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#互联网设备">互联网设备</a>
+      <ul>
+        <li><a href="#reapter-中继器-和-hub-集线器">Reapter 中继器 和 Hub 集线器</a></li>
+        <li><a href="#bridge-网桥-和-switch-交换机-基于-mac">Bridge 网桥 和 Switch 交换机 基于 MAC</a>
+          <ul>
+            <li><a href="#网卡">网卡</a></li>
+          </ul>
+        </li>
+        <li><a href="#router-路由器-三层交换机-和-gateway-基于-ip">Router 路由器 三层交换机 和 Gateway 基于 IP</a>
+          <ul>
+            <li><a href="#子网划分">子网划分</a></li>
+            <li><a href="#路由器数据包转发原理">路由器数据包转发原理</a></li>
+            <li><a href="#三层交换机">三层交换机</a></li>
+          </ul>
+        </li>
+        <li><a href="#四层交换机-四层路由器-基于端口-网关">四层交换机 四层路由器 基于端口 网关</a></li>
+        <li><a href="#七层---基于域名">七层   基于域名</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h1 id="互联网设备">互联网设备</h1>
+<p align='center'>
+<img src='https://raw.githubusercontent.com/stayt1/img/master/devices.png' width='500' />
+</p>
+<h2 id="reapter-中继器-和-hub-集线器">Reapter 中继器 和 Hub 集线器</h2>
+<ul>
+<li>集线器的工作原理：一个接口进入的数据，其他端口进行泛洪。</li>
+<li>集线器带来的两大问题：
+<ul>
+<li>二层环路会造成广播风暴，影响通讯效率。</li>
+<li>数据扩散，严重安全威胁。</li>
+</ul>
+</li>
+</ul>
+<h2 id="bridge-网桥-和-switch-交换机-基于-mac">Bridge 网桥 和 Switch 交换机 基于 MAC</h2>
+<ul>
+<li>网桥是两个端口的交换机。</li>
+<li>交换机：数据交换的专用通道。
+<ul>
+<li>原理：
+<ol>
+<li>初始情况下，MAC 地址表是空的。</li>
+<li>二层帧头 或 ARP</li>
+<li>先查 MAC 表，没查到然后就洪泛 Flooding。（二层一般叫洪泛，三层一般叫广播）</li>
+<li>不是发给自己的就丢弃，是自己的就要开始回复数据了。</li>
+<li>然后再学习返回的接口，形成一个 MAC 表。</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<p>ARP：Address Resolution Protocol 地址解析协议，属于网络层协议。其基本作用是：根据已知的 IP 地址获得其对应的 MAC 地址</p>
+<p>其基本作用是：根据已知的 IP 地址获得其对应的 MAC 地址</p>
+<h3 id="网卡">网卡</h3>
+<p>网络接口卡（Network Interface Card，NIC）通常也简称为 “网卡”，它是计算机、 交换机、路由器等网络设备与外部网络世界相连的关键部件。</p>
+<p>从逻辑上讲，网卡包含 7 个功能模块，分别是 CU（Control Unit，控制单元）、OB（Output Buffer，输出缓存）、IB（Input Buffer，输入缓存）、LC（Line Coder， 线路编码器）、LD（Line Decoder，线路解码器）、TX（Transmitter，发射器）、RX（Receiver， 接收器）。</p>
+<h4 id="计算机上的网卡">计算机上的网卡</h4>
+<p align='center'>
+<img src='https://raw.githubusercontent.com/stayt1/img/master/comcard.png' width='500' />
+</p>
+<ol>
+<li>首先，计算机上的应用软件会产生等待发送的原始数据，这些数据经过 TCP／IP 模型的应用层、传输层、网络层处理后，得到一个一个的数据包（Packet）。然后，网络层会将这些数据包逐个下传给网卡的 CU。</li>
+<li>CU 从网络层那里接收到数据包之后，会将每个数据包封装成帧（Frame）。封装成的帧都是以太帧（Ethernet Frame）。然后，CU 会将这些帧逐个传递给 OB。</li>
+<li>OB 从 CU 那里接收到帧后，会按帧的接收顺序将这些帧排成一个队列，然后将队列中的帧逐个传递给 LC。先从 CU 那里接收到的帧会被先传递给 LC。</li>
+<li>LC 从 OB 那里接收到帧后，会对这些帧进行线路编码。从逻辑上讲，一个帧就是长度有限的一串 “0” 和 “1”。OB 中的 “0” 和 “1” 所对应的物理量（指电平、电流、电荷等）只适合于待在缓存中，而不适合于在线路（传输介质，例如双绞线）上进行传输。LC 的作用就是将这些 “0” 和 “1” 所对应的物理量转换成适合于在线路上进行传输的物理信号（指电流／电压波形等），并将物理信号传递给 TX。</li>
+<li>TX 从 LC 那里接收到物理信号后，会对物理信号的功率等特性进行调整，然后将调整后的物理信号通过线路（例如双绞线）发送出去。</li>
+</ol>
+<h4 id="交换机上的网卡">交换机上的网卡</h4>
+<p align='center'>
+<img src='https://raw.githubusercontent.com/stayt1/img/master/hubcard.png' width='500' />
+</p>
+<p>转发操作有三种：泛洪（Flooding）、转发（Forwarding）、丢弃（Discarding）。</p>
+<p>交换机的网卡不需要对帧进行封装与解封装，只需要具有与其他的 CU 进行帧交换功能。故帧的学习与该接口的 MAC 无关，都是终端的 MAC。</p>
+<h4 id="区别">区别</h4>
+<ol>
+<li>网卡工作在 TCP／IP 模型的数据链路层和物理层，同时具有数据链路层的功能和物理层的功能。</li>
+<li>计算机上的网卡是用来收发数据的，交换机上的网卡是用来转发数据的。</li>
+<li>交换机上的网卡和计算机上的网卡在组成结构上是完全一样的，都是由 CU、OB、IB、LC、LD、TX、RX7 个功能模块组成的。</li>
+<li>除了 CU 外，交换机上网卡和计算机上网卡的各个功能模块的工作过程完全一样。</li>
+<li>计算机上网卡的 CU 需要进行帧（Frame）的封装和解封装，并与计算机上 TCP／IP 模型的网络层交换数据包（Packet）。交换机上网卡的 CU 不需要进行帧的封装和解封装，而是直接与本交换机上其他网卡的 CU 进行帧的交换。</li>
+</ol>
+<h2 id="router-路由器-三层交换机-和-gateway-基于-ip">Router 路由器 三层交换机 和 Gateway 基于 IP</h2>
+<ul>
+<li>路由器实现跨网段 / 跨 VLAN 的通信，是网络层的设备，主要功能是路由选择和转发。</li>
+</ul>
+<h3 id="子网划分">子网划分</h3>
+<h4 id="为什么要进行子网划分">为什么要进行子网划分？</h4>
+<p>某公司有 500 台 PC，分配一个标准 C 类网段（254 个可用），IP 地址不够用，分配一个标准 B 类网 IP 又会产生大量的浪费（65534 个可用，利用率不足 1％）。标准 ABC 类地址存在如下问题：</p>
+<ol>
+<li>标准主类网络划分，造成 IP 地址空间浪费。</li>
+<li>广播域中 PC 数量过多，广播风暴会消耗网络资源。</li>
+</ol>
+<h4 id="ip-子网划分和-vlan-的关系">IP 子网划分和 VLAN 的关系？</h4>
+<ul>
+<li>
+<p>都是隔离技术，子网划分是针对 IP（网络层），VLAN 是针对以太网（数据链路层）</p>
+</li>
+<li>
+<p>一般 VLAN 与子网对应，每个子网主机数量建议为一个 C 类地址即 254 台主机，最大不超过 4 个 C，即 1000 台。</p>
+</li>
+</ul>
+<h4 id="变长子网掩码">变长子网掩码</h4>
+<ul>
+<li>有效利用 IP 地址空间，减小广播风暴。</li>
+</ul>
+<h4 id="无类别域间路由cidr">无类别域间路由（CIDR）</h4>
+<h3 id="路由器数据包转发原理">路由器数据包转发原理</h3>
+<p>路由器（Router）的工作内容主要分为两个方面，一方面是通过运行路由协议（RoutingProtocol）来建立并维护自己的路由表（Routing Table），另一方面是根据自己的路由表对 IP 报文（IP Packet，IP 包）进行转发。路由器对 IP 包的转发也称为 IP 转发，或网络层转发，或三层转发。</p>
+<p>特点：</p>
+<ol>
+<li>当一个单播帧从线路（传输介质）上进入路由器的一个接口后，这个接口会将这个帧的目的 MAC 地址与自己的 MAC 地址进行比较。如果这两个 MAC 地址不相同，则这个接口会将这个帧直接丢弃。如果这两个 MAC 地址相同，则这个接口会将这个帧的载荷数据提取出来，并根据帧的类型字段值将载荷数据上送给路由器的网络层中的相应模块进行后续处理。</li>
+<li>当一个广播帧从线路（传输介质）上进入路由器的一个接口后，这个接口会直接将这个帧的载荷数据提取出来，并根据帧的类型字段值将载荷数据上送给路由器的网络层中的相应模块进行后续处理。</li>
+</ol>
+<h3 id="三层交换机">三层交换机</h3>
+<p>把路由器功能集成到了交换机内部，网络出口只能用路由器，因为三层交换机不支持 NAT 。</p>
+<h2 id="四层交换机-四层路由器-基于端口-网关">四层交换机 四层路由器 基于端口 网关</h2>
+<ul>
+<li>网关是传输层的设备(进程)。</li>
+<li>网关的作用：
+<ol>
+<li>连接网络层之上执行不同协议的子网，组成异构型的互联网。</li>
+<li>网关能对互不兼容的协议进行转换。</li>
+<li>为了实现异构型设备之间的通信，网关要对不同传输层、会话层表未层、应用层协议进行融译和转换。</li>
+</ol>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>网关类型</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>协议网关</td>
+<td>协议网关通常在使用不同协议的网络区域间做协议转换 (路由器)</td>
+</tr>
+<tr>
+<td>应用网关</td>
+<td>应用网关是在使用不同数据格式间翻译数据的系统 (数据中台)</td>
+</tr>
+<tr>
+<td>安全网关</td>
+<td>安全网关是各种技术的融合, 具有重要且独特的保护作用, 其范围从协议级 过滤到十分复杂的应用级过滤 (防火墙)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="七层---基于域名">七层   基于域名</h2>
+
+    </div>
+
+    
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/dns/">
+            <span class="next-text nav-default">DNS 协议</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+    <script src="https://utteranc.es/client.js"
+            repo="stayt1/stayt1.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:yangtaocaizi@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/tunann_1" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.linkedin.com/in/statyt/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/stayt1/" class="iconfont icon-github" title="github"></a>
+  <a href="http://stayt1.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2012 - 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>stayt1</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script><script></script><script src="https://cdn.jsdelivr.net/npm/raphael@2.2.7/raphael.min.js" integrity="sha256-67By+NpOtm9ka1R6xpUefeGOY8kWWHHRAKlvaTJ7ONI=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/flowchart.js@1.8.0/release/flowchart.min.js" integrity="sha256-zNGWjubXoY6rb5MnmpBNefO0RgoVYfle9p0tvOQM+6k=" crossorigin="anonymous"></script><script></script><script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/snapsvg@0.5.1/dist/snap.svg-min.js" integrity="sha256-oI+elz+sIm+jpn8F/qEspKoKveTc5uKeFHNNVexe6d8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/underscore@1.8.3/underscore-min.js" integrity="sha256-obZACiHd7gkOk9iIL/pimWMTJ4W/pBsKu+oZnSeBIek=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.js" integrity="sha384-8748Vn52gHJYJI0XEuPB2QlPVNUkJlJn9tHqKec6J3q2r9l8fvRxrgn/E5ZHV0sP" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.css" integrity="sha384-6QbLKJMz5dS3adWSeINZe74uSydBGFbnzaAYmp+tKyq60S7H2p6V7g1TysM5lAaF" crossorigin="anonymous">
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        tags: 'ams',
+        }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

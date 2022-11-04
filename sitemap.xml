@@ -2,21 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://stayt1.github.io/writing/time/</loc>
-    <lastmod>2022-11-01T17:19:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/writing/</loc>
-    <lastmod>2022-11-01T17:19:52+08:00</lastmod>
+    <loc>http://stayt1.github.io/archive/</loc>
+    <lastmod>2022-11-03T21:54:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://stayt1.github.io/</loc>
+    <lastmod>2022-11-03T21:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/archive/deepwork/</loc>
+    <lastmod>2022-11-03T21:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/</loc>
+    <lastmod>2022-11-03T16:42:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/device/</loc>
+    <lastmod>2022-11-03T16:42:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/dns/</loc>
+    <lastmod>2022-11-03T15:42:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/pdf/</loc>
+    <lastmod>2022-11-02T16:59:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/archive/time/</loc>
     <lastmod>2022-11-01T17:19:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -30,15 +65,15 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/post/</loc>
-    <lastmod>2022-10-27T17:22:40+08:00</lastmod>
+    <loc>http://stayt1.github.io/archive/failfast/</loc>
+    <lastmod>2022-10-24T00:35:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/writing/failfast/</loc>
-    <lastmod>2022-10-24T00:35:31+08:00</lastmod>
+    <loc>http://stayt1.github.io/writing/</loc>
+    <lastmod>2022-10-16T13:31:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -128,7 +163,7 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/writing/workhard/</loc>
+    <loc>http://stayt1.github.io/archive/workhard/</loc>
     <lastmod>2022-10-10T15:16:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

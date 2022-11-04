@@ -6,9 +6,36 @@
     <description>Recent content in Posts on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Oct 2022 17:22:40 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2022 16:42:54 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HTTP协议</title>
+      <title>互联网设备</title>
+      <link>http://stayt1.github.io/post/device/</link>
+      <pubDate>Thu, 03 Nov 2022 16:42:54 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/device/</guid>
+      <description>互联网设备 Reapter 中继器 和 Hub 集线器 集线器的工作原理：一个接口进入的数据，其他端口进行泛洪。 集线器带来的两大问题： 二层环路会造成广播风暴，影响通讯效</description>
+    </item>
+    
+    <item>
+      <title>DNS 协议</title>
+      <link>http://stayt1.github.io/post/dns/</link>
+      <pubDate>Thu, 03 Nov 2022 15:42:13 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/dns/</guid>
+      <description>DNS 解析器 解析器实际上是一段程序，它包含在操作系统的 Socket 库中。 Socket 库是用于调用网络功能的程序组件集合。 根据域名查询 IP 地址时，浏览器会使用 Socket 库中的解</description>
+    </item>
+    
+    <item>
+      <title>PDF技术详解</title>
+      <link>http://stayt1.github.io/post/pdf/</link>
+      <pubDate>Wed, 02 Nov 2022 16:59:52 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/pdf/</guid>
+      <description>对，你没看错，我就是写的 PDF 技术。用了很多年的 PDF 了，但是一直没有系统的学习过，这次终于有机会了。这里记录一下学习的内容。 什么是 PDF[^1] 实际上，我第一</description>
+    </item>
+    
+    <item>
+      <title>HTTP 协议</title>
       <link>http://stayt1.github.io/post/http/</link>
       <pubDate>Thu, 27 Oct 2022 17:22:40 +0800</pubDate>
       
@@ -67,11 +94,11 @@
       <pubDate>Thu, 06 Oct 2022 23:59:01 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/sports/</guid>
-      <description>最近受到朋友的款待，十分感谢，有一点发福了 150 斤。 我需要减肥到 120 斤， 以此记录。 运动说明: 只能先减肥再健身。 控制饮食，不吃高热高糖高盐 买一个体重</description>
+      <description>最近受到朋友的款待，十分感谢，有一点发福了 150 斤。 我需要减肥到 120 斤， 以此记录。 Keep 教程 腹肌撕裂者 单侧腹卷抬腿 俄罗斯转体 单腿两头起 运动说明: 只能先</description>
     </item>
     
     <item>
-      <title>在家工作</title>
+      <title>远程登录工具</title>
       <link>http://stayt1.github.io/post/workfromhome/</link>
       <pubDate>Thu, 06 Oct 2022 21:52:49 +0800</pubDate>
       
