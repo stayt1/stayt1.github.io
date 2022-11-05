@@ -261,7 +261,7 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/post/mcc1/</loc>
+    <loc>http://stayt1.github.io/post/mcc/</loc>
     <lastmod>2022-09-23T18:30:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -282,14 +282,14 @@
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/post/cnet1/</loc>
+    <loc>http://stayt1.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2022-09-21T22:43:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://stayt1.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>http://stayt1.github.io/post/cnet/</loc>
     <lastmod>2022-09-21T22:43:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
