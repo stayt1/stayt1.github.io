@@ -49,7 +49,7 @@
 <meta itemprop="name" content="HTTP 协议">
 <meta itemprop="description" content="HTTP/HTTPS 简介 HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写，是用于从万维网（ WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。 HTTP 是一个基于 TCP/IP"><meta itemprop="datePublished" content="2022-10-27T17:22:40+08:00" />
 <meta itemprop="dateModified" content="2022-10-27T17:22:40+08:00" />
-<meta itemprop="wordCount" content="2892">
+<meta itemprop="wordCount" content="2969">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="HTTP 协议"/>
 <meta name="twitter:description" content="HTTP/HTTPS 简介 HTTP 协议是 Hyper Text Transfer Protocol（超文本传输协议）的缩写，是用于从万维网（ WWW:World Wide Web ）服务器传输超文本到本地浏览器的传送协议。 HTTP 是一个基于 TCP/IP"/>
@@ -144,7 +144,7 @@
       <div class="post-meta">
         <span class="post-time"> 2022-10-27 </span>
         
-          <span class="more-meta"> 2892 words </span>
+          <span class="more-meta"> 2969 words </span>
           <span class="more-meta"> 6 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -159,6 +159,7 @@
       <ul>
         <li><a href="#http-工作原理">HTTP 工作原理</a></li>
         <li><a href="#https-作用">HTTPS 作用</a></li>
+        <li><a href="#http-的过程">HTTP 的过程</a></li>
       </ul>
     </li>
   </ul>
@@ -267,6 +268,11 @@
 <li>该证书正确地验证了被访问的网站；</li>
 <li>此协议的加密层（SSL/TLS）能够有效地提供认证和高强度的加密。</li>
 </ol>
+<h2 id="http-的过程">HTTP 的过程</h2>
+<p>（1）创建套接字（创建套接字阶段）
+（2）将管道连接到服务器端的套接字上（连接阶段）
+（3）收发数据（通信阶段）
+（4）断开管道并删除套接字（断开阶段）</p>
 
     </div>
 

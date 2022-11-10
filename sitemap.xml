@@ -2,15 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://stayt1.github.io/archive/</loc>
-    <lastmod>2022-11-03T21:54:58+08:00</lastmod>
+    <loc>http://stayt1.github.io/post/</loc>
+    <lastmod>2022-11-10T02:34:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://stayt1.github.io/</loc>
-    <lastmod>2022-11-03T21:54:58+08:00</lastmod>
+    <lastmod>2022-11-10T02:34:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/netalg/</loc>
+    <lastmod>2022-11-10T02:34:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/publickey/</loc>
+    <lastmod>2022-11-09T18:50:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/post/goodmath/</loc>
+    <lastmod>2022-11-06T21:09:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/archive/</loc>
+    <lastmod>2022-11-06T20:47:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://stayt1.github.io/archive/determination/</loc>
+    <lastmod>2022-11-06T20:47:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -18,13 +53,6 @@
   <url>
     <loc>http://stayt1.github.io/archive/deepwork/</loc>
     <lastmod>2022-11-03T21:54:58+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://stayt1.github.io/post/</loc>
-    <lastmod>2022-11-03T16:42:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

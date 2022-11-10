@@ -6,7 +6,34 @@
     <description>Recent content in Posts on 图南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Nov 2022 16:42:54 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 02:34:54 +0800</lastBuildDate><atom:link href="http://stayt1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>计算机网络中的算法</title>
+      <link>http://stayt1.github.io/post/netalg/</link>
+      <pubDate>Thu, 10 Nov 2022 02:34:54 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/netalg/</guid>
+      <description>快速模幂运算 1 2 3 4 5 6 7 8 9 10 def fast_mod_exp(a,x,n): a=a%n ans=1 while x!=0: if x&amp;amp;1: ans=(ans*a)%n x&amp;gt;&amp;gt;=1 print(ans) a=(a*a)%n return ans 1 2 3 4 5 6 7 8 9 def fast_mod_exp(a, x, n): r = 1 if 1 &amp;amp; x: r = a while x: x &amp;gt;&amp;gt;= 1 a = (a * a) % n if x &amp;amp; 1: r</description>
+    </item>
+    
+    <item>
+      <title>Public-Key Cryptography and Key Management</title>
+      <link>http://stayt1.github.io/post/publickey/</link>
+      <pubDate>Wed, 09 Nov 2022 18:50:54 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/publickey/</guid>
+      <description>RSA Cryptosystem</description>
+    </item>
+    
+    <item>
+      <title>什么是好的数学？</title>
+      <link>http://stayt1.github.io/post/goodmath/</link>
+      <pubDate>Sun, 06 Nov 2022 21:09:44 +0800</pubDate>
+      
+      <guid>http://stayt1.github.io/post/goodmath/</guid>
+      <description>先放一些链接: 哈代生平 我如何安排时间（译自陶哲轩博客） 陶哲轩：魔鬼常在细节之中——谈数学学习 G.H.Hardy（1877-1947），毕生追</description>
+    </item>
+    
     <item>
       <title>互联网设备</title>
       <link>http://stayt1.github.io/post/device/</link>
@@ -139,7 +166,7 @@
       <pubDate>Wed, 21 Sep 2022 22:43:52 +0800</pubDate>
       
       <guid>http://stayt1.github.io/post/cnet/</guid>
-      <description>第一章 计算机网络和因特网 1.1 什么是因特网 因特网的两种描述：组成部分？能够提供的服务？ 主机 = 端系统 主机连接路径 = 通信链路 + 分组交换机 分组交换机 =</description>
+      <description>第一章 计算机网络和因特网 1.1 什么是因特网 因特网的两种描述：组成部分？能够提供的服务？ 一些概念： 主机 = 端系统 主机连接路径 = 通信链路 + 分组交换机 End</description>
     </item>
     
   </channel>
