@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Tao YANG" /><meta name="description" content="RSA Cryptosystem" /><meta name="keywords" content="jincheng, blog, backend, go" />
+<meta name="author" content="Tao YANG" /><meta name="description" content="RSA Cryptosystem Diffie-Hellman 密钥交换协议 迪菲－赫尔曼密钥交换（ Diffie–Hellman key exchange ，简称「D–H」） 是一种安全协议。它可以让双方在完全没有对方任何预先" /><meta name="keywords" content="jincheng, blog, backend, go" />
 
 
 
@@ -40,19 +40,19 @@
 
 
 <meta property="og:title" content="Public-Key Cryptography and Key Management" />
-<meta property="og:description" content="RSA Cryptosystem" />
+<meta property="og:description" content="RSA Cryptosystem Diffie-Hellman 密钥交换协议 迪菲－赫尔曼密钥交换（ Diffie–Hellman key exchange ，简称「D–H」） 是一种安全协议。它可以让双方在完全没有对方任何预先" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://stayt1.github.io/post/publickey/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-11-09T18:50:54+08:00" />
 <meta property="article:modified_time" content="2022-11-09T18:50:54+08:00" />
 
 <meta itemprop="name" content="Public-Key Cryptography and Key Management">
-<meta itemprop="description" content="RSA Cryptosystem"><meta itemprop="datePublished" content="2022-11-09T18:50:54+08:00" />
+<meta itemprop="description" content="RSA Cryptosystem Diffie-Hellman 密钥交换协议 迪菲－赫尔曼密钥交换（ Diffie–Hellman key exchange ，简称「D–H」） 是一种安全协议。它可以让双方在完全没有对方任何预先"><meta itemprop="datePublished" content="2022-11-09T18:50:54+08:00" />
 <meta itemprop="dateModified" content="2022-11-09T18:50:54+08:00" />
-<meta itemprop="wordCount" content="2">
+<meta itemprop="wordCount" content="782">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Public-Key Cryptography and Key Management"/>
-<meta name="twitter:description" content="RSA Cryptosystem"/>
+<meta name="twitter:description" content="RSA Cryptosystem Diffie-Hellman 密钥交换协议 迪菲－赫尔曼密钥交换（ Diffie–Hellman key exchange ，简称「D–H」） 是一种安全协议。它可以让双方在完全没有对方任何预先"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -144,8 +144,8 @@
       <div class="post-meta">
         <span class="post-time"> 2022-11-09 </span>
         
-          <span class="more-meta"> 2 words </span>
-          <span class="more-meta"> 1 min read </span>
+          <span class="more-meta"> 782 words </span>
+          <span class="more-meta"> 2 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
     </header>
@@ -155,13 +155,56 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#rsa-cryptosystem">RSA Cryptosystem</a></li>
+    <li><a href="#rsa-cryptosystem">RSA Cryptosystem</a>
+      <ul>
+        <li><a href="#diffie-hellman-密钥交换协议">Diffie-Hellman 密钥交换协议</a>
+          <ul>
+            <li><a href="#离散对数的数学概念">离散对数的数学概念</a></li>
+            <li><a href="#具体的-diffie-hellman-算法">具体的 Diffie-Hellman 算法</a></li>
+            <li><a href="#优势和缺陷">优势和缺陷</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
       <h1 id="rsa-cryptosystem">RSA Cryptosystem</h1>
+<h2 id="diffie-hellman-密钥交换协议">Diffie-Hellman 密钥交换协议</h2>
+<p>迪菲－赫尔曼密钥交换（ Diffie–Hellman key exchange ，简称「D–H」） 是一种安全协议。它可以让双方在完全没有对方任何预先信息的条件下通过不安全信道建立起一个密钥。这个密钥可以在后续的通讯中作为对称密钥来加密通讯内容。</p>
+<h3 id="离散对数的数学概念">离散对数的数学概念</h3>
+<ul>
+<li>协议基于离散对数的概念:</li>
+</ul>
+<p>如果 $a$ 是素数 $p$ 的一个原根，那么数值:
+$a \bmod p, a^2 \bmod p, \cdots, a^{p-1} \bmod p$
+是各不相同的整数，且以某种排列方式组成了从 1 到 $p-1$ 的所有整数。</p>
+<p>如果对于一个整数 $b$ 和素数 $p$ 的一个原根 $a$ ，可以找到一个唯一的指数 $i$ ，使得:
+$$
+b=a^i \quad \bmod p, 0 \leq i \leq p-1
+$$
+那么指数 $i$ 称为 $b$ 的以 $a$ 为基数的模 $p$ 的离散对数。</p>
+<p>Diffie-Hellman 算法的有效性依赖于计算离散对数的难度，其含义是: 当已知大素数 $p$ 和它的一个原根 $a$ 后， 对给定的 $b$ ，要计算 $i$ ，被认为是很困难的，而给定 $i$ 计算 $b$ 却相对容易。</p>
+<h3 id="具体的-diffie-hellman-算法">具体的 Diffie-Hellman 算法</h3>
+<p>假如用户 $\mathrm{A}$ 和用户 $\mathrm{B}$ 希望交换一个密钥。取素数 $p$ 和整数 $a ， a$ 是 $p$ 的一个原根，公开 $a$ 和 $p$ 。</p>
+<ul>
+<li>A选择随机数 $X_A&lt;p$ ，并计算 $Y_A=a^{X_A} \bmod p$ 。</li>
+<li>B 选择随机数 $X_B&lt;p$ ，并计算 $Y_B=a^{X_B} \bmod p$ 。
+每一方都将 $X$ 保密而将 $Y$ 公开让另一方得到。</li>
+<li>A计算密钥: $K=Y_B^{X_A} \bmod p$ 。</li>
+<li>B 计算密钥: $K=Y_A^{X_B} \bmod p$ 。
+密钥的有效性:
+$$
+K_B=Y_B^{X_A}=a^{X_B X_A}=a^{X_A X_B}=Y_A^{X_B}=K_A \quad \bmod p
+$$</li>
+</ul>
+<p>由于 $X_A$ 和 $X_B$ 是保密的，而第三方只有 $p, a, Y_B 、 Y_A$ 可以利用，只有通过取离散对数来确定密钥，但 对于大的素数 $p$ ，计算离散对数是十分困难的。</p>
+<h3 id="优势和缺陷">优势和缺陷</h3>
+<p>DH 协议可以让通信双方平等地协商密钥，而且可以很简单地扩充到多方协商。</p>
+<p>该协议可以防止中间人偷宽，恶意中间人对数据流的截获并不会计算出双方协商出的密钥。但该协议无法完全 防止中间人攻击。如果中间人仿冒 $\mathrm{A}$ ，和 $\mathrm{B}$ 协商一份密钥 $K_{A B}$ ；再仿㫖 B 和 $\mathrm{A}$ 协商一份密钥 $K_{B A}$ 。然后 $\mathrm{A}$ 发送给 B 的信息用 $K_{A B}$ 加密，中间人截获解密后再用 $K_{B A}$ 加密发送给 B，此时 B 无法意识到信息被人查看。</p>
+<p>因此，现代密码学中，DH协议通常配合公钥体系（RSA 或者 DSA ) 共同使用。协议双方会使用私钥签名， 对方可以验证，从而防范中间人攻击。</p>
 
     </div>
 
