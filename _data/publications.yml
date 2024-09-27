@@ -1,11 +1,9 @@
 main:
-
   - title: "RankGuess: Password Guessing Using Adversarial Ranking"
     authors: Tao Yang, Ding Wang
     conference: IEEE Symposium on Security and Privacy 2025 <strong>(IEEE S&P)</strong>, 2025.
     pdf: stayt1.github.io
     ccfa: CCF-A
-
   - title: "Private Language Models via Truncated Laplacian Mechanism"
     authors: Tianhao Huang*, Tao Yang*, Ivan Habernal, Lijie Hu, Di Wang (*equal contribution)
     conference: The 2024 Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2024.
