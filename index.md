@@ -6,7 +6,7 @@ layout: homepage
 
 Hello there🫡! Thanks for finding me interesting enough to explore! Wish you have a nice day 😁!
 
-I'm Tao Yang (pronounced tau young). I am currently a Master's candidate in the [Crypto and System Lab](https://github.com/CSSLabNKU) at [Nankai University](https://www.nankai.edu.cn/), fortunate to be supervised by [Prof. Ding Wang](http://wangdingg.weebly.com/). Prior to this, I studied at Nankai University, School of Statistics and Data Science, majoring in Data Science and Big Data Technology advised by Prof. [Di Wang](https://shao3wangdi.github.io/) at KAUST, [Jun Xu](https://csjunxu.github.io/) and [Zhenglu Yang](https://bigdata.nankai.edu.cn/yangzl/list.htm) at NKU. I also have extensive practical experience at the [Kwai Technology](https://www.kwai.com/) and HKUST. 
+I'm Tao Yang (pronounced tau young). I am currently a Master's candidate in the [Crypto and System Lab](https://github.com/CSSLabNKU) at [Nankai University](https://www.nankai.edu.cn/), fortunate to be supervised by [Prof. Ding Wang](http://wangdingg.weebly.com/). Prior to this, I studied at Nankai University, School of Statistics and Data Science, majoring in Data Science and Big Data Technology advised by Prof. [Di Wang](https://shao3wangdi.github.io/) at KAUST, [Jun Xu](https://csjunxu.github.io/) and [Zhenglu Yang](https://bigdata.nankai.edu.cn/yangzl/list.htm) at NKU. I also have extensive practical experience at the [Kwai Technology](https://www.kwai.com/), China Mobile Research Institute and HKUST. 
 
 🌞 To whoever reads this message, you are amazing, you are loved, you are worthy.
 
