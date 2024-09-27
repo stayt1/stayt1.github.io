@@ -10,5 +10,5 @@
 
 ### Teaching Assistant
 - Deep Learning 2024 Fall in Nankai University
-- for Linear Algebra 2024 Spring in Nankai University
-- for Python 2022-2024 in Nankai University
+- Linear Algebra 2024 Spring in Nankai University
+- Python 2022-2024 in Nankai University
