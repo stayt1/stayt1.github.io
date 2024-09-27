@@ -20,7 +20,7 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 - Privacy/Security concerns in real-world life
 
 ## News
-- **[Sep. 2024]** One paper for Machine Learning in Password Security is accepted by IEEE S&P 2025. 🎉
+- **[Sep. 2024]** One paper for Machine Learning in Password Security is accepted by IEEE S&P (Oakland) 2025. 🎉
 - **[Sep. 2024]** One paper for Diffential Privacy in Embeddding is accepted by EMNLP 2024. 🎉
 - **[Sep. 2024]** Obtain China National Scholarship (1%). 🎉
 
