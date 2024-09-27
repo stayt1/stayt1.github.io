@@ -22,9 +22,9 @@ canonical: https://stayt1.github.io/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/photo.jpg
-favicon: ./assets/img/photo.jpg
-favicon_dark: ./assets/img/photo.jpg
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/avatar.png
+favicon_dark: ./assets/img/avatar.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
