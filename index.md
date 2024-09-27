@@ -10,7 +10,7 @@ I'm Tao Yang (pronounced tau young). I am currently a Master's candidate in the 
 
 🌞 Some people are just lucky. You can make yourself one of them. 
 <p style="color: red;">🤔 Note: I am open to any kind of collaboration, feel free to shoot me an email if you have any ideas!</p>
-
+<p style="color: blue;">👷‍♂️ Looking for PhD Position starting in fall 2025.</p>
 ## Research Interests
 
 I have a strong background in Statistics and Machine Learning, capable of connecting theoretical concepts to real-world problems to address privacy and security concerns in people’s daily live:
