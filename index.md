@@ -39,5 +39,5 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 
 ## Miscellaneous
 - English: TOEFL 106
-- Scholarship：China National Scholarship (1%), Tianjin Government Scholarship, Ming-Shan-Yun-Neng Scholarship,  Provincial Outstanding Student (1%)
+- Scholarship: China National Scholarship (1%), Tianjin Government Scholarship, Ming-Shan-Yun-Neng Scholarship,  Provincial Outstanding Student (1%)
 
