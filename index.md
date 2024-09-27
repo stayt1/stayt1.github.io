@@ -6,9 +6,9 @@ layout: homepage
 
 Hello there🫡! Wish you have a nice day 😁!
 
-I'm Tao Yang (pronounced tau young). I am currently a Master's candidate in the [Crypto and System Lab](https://github.com/CSSLabNKU) at [Nankai University](https://www.nankai.edu.cn/), fortunate to be supervised by [Prof. Ding Wang](http://wangdingg.weebly.com/). Prior to this, I studied at Nankai University, School of Statistics and Data Science, majoring in Data Science and Big Data Technology advised by Prof. [Di Wang](https://shao3wangdi.github.io/) at KAUST, [Jun Xu](https://csjunxu.github.io/) and [Zhenglu Yang](https://bigdata.nankai.edu.cn/yangzl/list.htm) at NKU. I also have extensive practical experience at the [Kwai Technology](https://www.kwai.com/), China Mobile Research Institute and HKUST. 
+I'm Tao Yang (pronounced tau young). I am currently a Master's candidate in the [Crypto and System Lab](https://github.com/CSSLabNKU) at [Nankai University](https://www.nankai.edu.cn/), fortunate to be supervised by [Prof. Ding Wang](http://wangdingg.weebly.com/). Prior to this, I studied at Nankai University, School of Statistics and Data Science, majoring in Data Science and Big Data Technology fortunate to be advised by Prof. [Di Wang](https://shao3wangdi.github.io/) at KAUST, [Jun Xu](https://csjunxu.github.io/) and [Zhenglu Yang](https://bigdata.nankai.edu.cn/yangzl/list.htm) at NKU. I also have extensive practical experience at the [Kwai Technology](https://www.kwai.com/), China Mobile Research Institute and HKUST. 
 
-🌞 Some people are just lucky. You can make yourself one of them.
+🌞 Some people are just lucky. You can make yourself one of them. Open to 
 
 ## Research Interests
 
@@ -23,10 +23,6 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 - **[Sep. 2024]** One paper for Diffential Privacy in Embeddding is accepted by EMNLP 2024. 🎉
 - **[Sep. 2024]** Obtain China National Scholarship (1%). 🎉
 
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %} 
-
 ## Collaborators
 - [Lijie Hu](https://sites.google.com/view/lijiehu/homepage) (KAUST)
 - Tianhao Huang (ASU)
@@ -34,6 +30,11 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 - [Yanduo Fu](https://freedomfu.github.io/) (NKU)
 - Yihe Duan (NKU)
 - Yingxu Huang (UESTC)
+
+{% include_relative _includes/publications.md %}
+
+{% include_relative _includes/services.md %} 
+
 
 ## Miscellaneous
 - English: TOEFL 106
