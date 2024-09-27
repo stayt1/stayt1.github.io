@@ -23,6 +23,9 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 - **[Sep. 2024]** One paper for Diffential Privacy in Embeddding is accepted by EMNLP 2024. 🎉
 - **[Sep. 2024]** Obtain China National Scholarship (1%). 🎉
 
+{% include_relative _includes/publications.md %}
+
+{% include_relative _includes/services.md %} 
 
 ## Collaborators
 - [Lijie Hu](https://sites.google.com/view/lijiehu/homepage) (KAUST)
@@ -32,6 +35,8 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 - Yihe Duan (NKU)
 - Yingxu Huang (UESTC)
 
-{% include_relative _includes/publications.md %}
+## Miscellaneous
+- English: TOEFL 106
+- Programming: Python, C++, R, , MySQL
+- Scholarship：China National Scholarship (1%), Tianjin Government Scholarship, Ming-Shan-Yun-Neng Scholarship,  Provincial Outstanding Student (1%)
 
-{% include_relative _includes/services.md %} 
