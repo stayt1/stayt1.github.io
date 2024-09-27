@@ -1,6 +1,6 @@
 ## Services
 
-### (Sub)Reviewers
+### Reviewers
 
 <ul style="margin:0 0 5px; list-style: none; padding: 0;">
   <li style="display: inline; margin-right: 10px;"><a href="https://iclr.cc/">ICLR 2025</a></li>
