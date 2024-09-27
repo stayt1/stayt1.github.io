@@ -1,7 +1,7 @@
 main:
 
   - title: "RankGuess: Password Guessing Using Adversarial Ranking"
-    authors: <strong>Tao Yang<strong>, Ding Wang
+    authors: Tao Yang, Ding Wang
     conference: IEEE Symposium on Security and Privacy 2025 <strong>(IEEE S&P)</strong>, 2025.
     pdf: stayt1.github.io
     ccfa: CCF-A
