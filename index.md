@@ -10,7 +10,6 @@ I'm Tao Yang (pronounced tau young). I am currently a Master's candidate in the 
 
 🌞 Some people are just lucky. You can make yourself one of them. 
 <p style="color: red;">☝🤓Open to any kind of collaboration, feel free to shoot me an email if you have any ideas!</p>
-<p style="color: blue;">☝🤓Looking for PhD Position starting in fall 2025.</p>
 ## Research Interests
 
 I have a strong background in Statistics and Machine Learning, capable of connecting theoretical concepts to real-world problems to address privacy and security concerns in people’s daily live:
@@ -21,7 +20,7 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 
 ## News
 - **[Sep. 2024]** One paper for Machine Learning in Password Security is accepted by IEEE S&P (Oakland) 2025. 🎉
-- **[Sep. 2024]** One paper for Diffential Privacy in Embeddding is accepted by EMNLP 2024. 🎉
+- **[Sep. 2024]** One paper for Diffential Privacy in Embedding is accepted by EMNLP 2024. 🎉
 - **[Sep. 2024]** Obtain China National Scholarship (1%). 🎉
 
 ## Collaborators
