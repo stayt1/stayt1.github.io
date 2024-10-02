@@ -10,7 +10,7 @@ I'm Tao Yang (pronounced tau young). I'm a Machine Learning Engineer with a B.S.
 
 🌞 Some people are just lucky. You can make yourself one of them. 
 <p style="color: red;">☝🤓Open to any kind of collaboration, feel free to shoot me an email if you have any ideas!</p>
-<p style="color: blue;">☝🤓Aim to publish papers at venues like IEEE S&P, USENIX SEC, CCS, NDSS, NIPS, ICML, ICLR, ACL, and EMNLP.</p>
+<p style="color: blue;">☝🤓Aim to publish papers at venues like IEEE S&P, USENIX SEC, CCS, NDSS, NIPS, ICML, ICLR.</p>
 ## Research Interests
 
 I have a strong background in Statistics and Machine Learning, capable of connecting theoretical concepts to real-world problems to address privacy and security concerns in people’s daily live:
