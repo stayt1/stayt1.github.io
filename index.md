@@ -37,7 +37,10 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 {% include_relative _includes/services.md %} 
 
 
+
+
 ## Miscellaneous
 - English: TOEFL 106
 - Scholarship: China National Scholarship (1%), Tianjin Government Scholarship, Ming-Shan-Yun-Neng Scholarship,  Provincial Outstanding Student (1%)
+- Motto: Youth neglects study; age regrets delay. 黑发不知勤学早，白首方悔读书迟。
 
