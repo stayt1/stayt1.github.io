@@ -6,7 +6,7 @@ layout: homepage
 
 Hello there🫡! Wish you have a nice day 😁!
 
-I'm Tao Yang (pronounced tau young). I'm a Machine Learning Engineer with a B.S. and M.S. in Data Science and Computer Science from Nankai University. I was fortunate to be advised by Prof. [Ding Wang](http://wangdingg.weebly.com/), Prof. [Di Wang](https://shao3wangdi.github.io/) at KAUST, as well as [Jun Xu](https://csjunxu.github.io/) and [Zhenglu Yang](https://bigdata.nankai.edu.cn/yangzl/list.htm) at NKU. I also have extensive practical experience at the [Kwai Technology](https://www.kwai.com/), China Mobile Research Institute and HKUST. If you want to send me some content that you don't want third parties to know, please use this [public key](https://stayt1.github.io/assets/files/public_key.txt).
+I'm Tao Yang (pronounced tau young). I'm a Machine Learning Engineer with a B.S. and M.S. in Data Science and Computer Science from Nankai University. I was fortunate to be advised by Prof. [Ding Wang](http://wangdingg.weebly.com/), Prof. [Di Wang](https://shao3wangdi.github.io/) at KAUST, as well as [Jun Xu](https://csjunxu.github.io/) and [Zhenglu Yang](https://bigdata.nankai.edu.cn/yangzl/list.htm) at NKU. I also have extensive practical experience at the [Kwai Technology](https://www.kwai.com/), [China Mobile Research Institute](https://cmri.chinamobile.com/) and HKUST. If you want to send me some content that you don't want third parties to know, please use this [public key](https://stayt1.github.io/assets/files/public_key.txt).
 
 🌞 Some people are just lucky. You can make yourself one of them. 
 <p style="color: red;">☝🤓Open to any kind of collaboration, feel free to shoot me an email if you have any ideas!</p>
