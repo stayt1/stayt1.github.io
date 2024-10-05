@@ -30,7 +30,7 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 - [Xuyao Wang](https://github.com/XuyaoWang) (PKU)
 - [Yanduo Fu](https://freedomfu.github.io/) (NKU)
 - [Yihe Duan](https://ieeexplore.ieee.org/author/37089841172) (NKU)
-- [Yingxu Huang](https://www.uestc.edu.cn/)(UESTC)
+- [Yingxu Huang](https://www.uestc.edu.cn/) (UESTC)
 
 {% include_relative _includes/publications.md %}
 
