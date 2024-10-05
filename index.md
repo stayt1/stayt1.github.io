@@ -26,11 +26,11 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 
 ## Collaborators
 - [Lijie Hu](https://sites.google.com/view/lijiehu/homepage) (KAUST)
-- Tianhao Huang (ASU)
-- Xuyao Wang (PKU)
+- [Tianhao Huang](https://scholar.google.com/citations?user=zJb5MigAAAAJ&hl=zh-CN) (ASU)
+- [Xuyao Wang](https://github.com/XuyaoWang) (PKU)
 - [Yanduo Fu](https://freedomfu.github.io/) (NKU)
-- Yihe Duan (NKU)
-- Yingxu Huang (UESTC)
+- [Yihe Duan](https://ieeexplore.ieee.org/author/37089841172) (NKU)
+- [Yingxu Huang](https://www.uestc.edu.cn/)(UESTC)
 
 {% include_relative _includes/publications.md %}
 
