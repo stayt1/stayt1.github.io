@@ -101,7 +101,42 @@
           position: relative;
       }
     </style>
+    <!-- TOC 生成脚本 -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          const content = document.querySelector('section');
+          const headers = content.querySelectorAll('h2'); // 根据需要调整标题级别
+          const toc = document.querySelector('#toc ul');
 
+          headers.forEach(function(header) {
+              if (!header.id) {
+                  header.id = header.textContent.trim().replace(/\s+/g, '-').toLowerCase();
+              }
+
+              const a = document.createElement('a');
+              a.href = '#' + header.id;
+              a.textContent = header.textContent;
+
+              const li = document.createElement('li');
+
+              // 根据标题级别添加类名
+              if (header.tagName.toLowerCase() === 'h2') {
+                  li.classList.add('toc-h2');
+              } else if (header.tagName.toLowerCase() === 'h3') {
+                  li.classList.add('toc-h3');
+              }
+
+              li.appendChild(a);
+              toc.appendChild(li);
+          });
+      });
+    </script>
+      <!-- 将 TOC 移动到 header 之后，section 之前 -->
+      <nav id="toc">
+        <ul>
+          <!-- TOC 项目将由 JavaScript 生成 -->
+        </ul>
+      </nav>
   </head>
   <body>
 
@@ -167,42 +202,7 @@
         <br>
 
       </header>
-    <!-- TOC 生成脚本 -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          const content = document.querySelector('section');
-          const headers = content.querySelectorAll('h2'); // 根据需要调整标题级别
-          const toc = document.querySelector('#toc ul');
 
-          headers.forEach(function(header) {
-              if (!header.id) {
-                  header.id = header.textContent.trim().replace(/\s+/g, '-').toLowerCase();
-              }
-
-              const a = document.createElement('a');
-              a.href = '#' + header.id;
-              a.textContent = header.textContent;
-
-              const li = document.createElement('li');
-
-              // 根据标题级别添加类名
-              if (header.tagName.toLowerCase() === 'h2') {
-                  li.classList.add('toc-h2');
-              } else if (header.tagName.toLowerCase() === 'h3') {
-                  li.classList.add('toc-h3');
-              }
-
-              li.appendChild(a);
-              toc.appendChild(li);
-          });
-      });
-    </script>
-      <!-- 将 TOC 移动到 header 之后，section 之前 -->
-      <nav id="toc">
-        <ul>
-          <!-- TOC 项目将由 JavaScript 生成 -->
-        </ul>
-      </nav>
 
       <section>
 
