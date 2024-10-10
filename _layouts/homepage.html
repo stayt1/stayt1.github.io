@@ -35,60 +35,45 @@
     {% endif %}
 
     <!-- 添加您的 CSS 样式 -->
-    <style>
-      /* TOC 导航栏样式 */
+<style>
+    /* 固定 TOC 在屏幕顶部 */
+    #toc {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f8f9fa; /* 浅灰色背景 */
+      border-bottom: 1px solid #dee2e6; /* 底部边框 */
+      padding: 10px;
+      box-sizing: border-box;
+      z-index: 1000;
+    }
+  
+    /* 在小屏幕上隐藏 TOC */
+    @media (max-width: 768px) {
       #toc {
-          background-color: rgba(255, 255, 255, 0.9); /* 半透明背景 */
-          padding: 10px;
-          width: 100%;
-          border-bottom: 1px solid #ddd; /* 底部边框 */
+        display: none;
       }
-
-      #toc ul {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-          display: flex; /* 水平排列 */
-          flex-wrap: wrap; /* 如果项目太多，自动换行 */
-          justify-content: center; /* 居中显示 */
-      }
-
-      #toc li {
-          margin: 0 15px; /* 左右间距 */
-      }
-
-      #toc a {
-          text-decoration: none;
-          color: #333;
-          font-size: 14px;
-      }
-
-      #toc a:hover {
-          text-decoration: underline;
-          color: #007BFF;
-      }
-
-      /* 区分不同级别的标题样式 */
-      #toc li.toc-h3 {
-          font-size: 13px;
-          color: #555;
-      }
-
-      #toc li.toc-h3 a {
-          color: #555;
-      }
-
-      /* 响应式设计：在小屏幕上调整布局 */
-      @media (max-width: 768px) {
-          #toc ul {
-              flex-direction: column; /* 垂直排列 */
-              align-items: flex-start;
-          }
-          #toc li {
-              margin: 5px 0;
-          }
-      }
-    </style>
+    }
+  
+    /* 为页面内容添加顶部间距，避免被 TOC 遮挡 */
+    .content {
+      padding-top: 50px;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 800px;
+    }
+  
+    /* 基本的标题和段落样式 */
+    h1, h2 {
+      color: #333;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #666;
+    }
+  </style>
 
   </head>
   <body>
