@@ -101,12 +101,15 @@
 
       </header>
 
-      <!-- 添加TOC导航 -->
-      <nav id="toc" style="text-align:right; margin-bottom: 20px;">
-        <ul style="list-style:none; margin:0; padding:0; display:inline-block;">
-          <!-- TOC items will be inserted here -->
+      <!-- 修改后的TOC导航 -->
+      <nav id="toc" style="position: fixed; top: 0; right: 0; background-color: white; padding: 10px; z-index: 1000;">
+        <ul style="list-style: none; margin: 0; padding: 0;">
+          <!-- 导航项将由JavaScript生成 -->
         </ul>
       </nav>
+
+      <!-- 占位符，防止导航栏遮挡内容 -->
+      <div style="height: 60px;"></div>
 
       <section>
 
