@@ -94,17 +94,16 @@
       body, html {
           overflow: visible;
       }
+
+      /* 确保 wrapper 没有干扰 */
+      .wrapper {
+          overflow: visible;
+          position: relative;
+      }
     </style>
 
   </head>
   <body>
-
-    <!-- TOC 导航栏：将 TOC 移到最外层，避免父元素干扰 -->
-    <nav id="toc">
-      <ul>
-        <!-- TOC 项目将由 JavaScript 生成 -->
-      </ul>
-    </nav>
 
     <div class="wrapper">
       <header>
@@ -168,6 +167,13 @@
         <br>
 
       </header>
+
+      <!-- 将 TOC 移动到 header 之后，section 之前 -->
+      <nav id="toc">
+        <ul>
+          <!-- TOC 项目将由 JavaScript 生成 -->
+        </ul>
+      </nav>
 
       <section>
 
