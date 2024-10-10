@@ -167,29 +167,6 @@
         <br>
 
       </header>
-
-      <!-- 将 TOC 移动到 header 之后，section 之前 -->
-      <nav id="toc">
-        <ul>
-          <!-- TOC 项目将由 JavaScript 生成 -->
-        </ul>
-      </nav>
-
-      <section>
-
-      {{ content }}
-
-      <br>
-
-      {% if site.enable_footnote %}
-      {% endif %}
-
-      </section>
-      <footer>
-        
-      </footer>
-    </div>
-
     <!-- TOC 生成脚本 -->
     <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -220,6 +197,29 @@
           });
       });
     </script>
+      <!-- 将 TOC 移动到 header 之后，section 之前 -->
+      <nav id="toc">
+        <ul>
+          <!-- TOC 项目将由 JavaScript 生成 -->
+        </ul>
+      </nav>
+
+      <section>
+
+      {{ content }}
+
+      <br>
+
+      {% if site.enable_footnote %}
+      {% endif %}
+
+      </section>
+      <footer>
+        
+      </footer>
+    </div>
+
+
 
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     {% if site.google_analytics %}
