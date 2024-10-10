@@ -34,6 +34,33 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
+    <!-- 添加用于目录的自定义样式 -->
+    <style>
+      #toc {
+        position: sticky;
+        top: 0;
+        background-color: #fff; /* 根据需要调整背景颜色 */
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        z-index: 1000;
+      }
+      #toc ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      #toc li {
+        margin-bottom: 5px;
+      }
+      #toc a {
+        text-decoration: none;
+        color: #007bff; /* 根据需要调整链接颜色 */
+      }
+      #toc a:hover {
+        text-decoration: underline;
+      }
+    </style>
+
   </head>
   <body>
 
@@ -100,6 +127,11 @@
 
       </header>
 
+      <!-- 添加具有sticky属性的TOC -->
+      <nav id="toc">
+        <strong>目录</strong>
+        <ul></ul>
+      </nav>
 
       <section>
 
@@ -116,9 +148,8 @@
       </footer>
     </div>
 
-
-
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -129,5 +160,29 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+
+    <!-- 添加生成目录的JavaScript -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const content = document.querySelector('section');
+        const headings = content.querySelectorAll('h2, h3');
+        const toc = document.querySelector('#toc ul');
+
+        headings.forEach(function(heading) {
+          // 如果标题没有id，则生成一个
+          if (!heading.id) {
+            heading.id = heading.textContent.trim().replace(/\s+/g, '-').toLowerCase();
+          }
+
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = '#' + heading.id;
+          a.textContent = heading.textContent;
+          li.appendChild(a);
+          toc.appendChild(li);
+        });
+      });
+    </script>
+
   </body>
 </html>
