@@ -36,12 +36,6 @@
 
   </head>
   <body>
-    <!-- 添加TOC导航 -->
-    <nav id="toc">
-      <h2>目录</h2>
-      <ul></ul>
-    </nav>
-
     <div class="wrapper">
       <header>
         
@@ -106,6 +100,14 @@
         <br>
 
       </header>
+
+      <!-- 添加TOC导航 -->
+      <nav id="toc" style="text-align:right; margin-bottom: 20px;">
+        <ul style="list-style:none; margin:0; padding:0; display:inline-block;">
+          <!-- TOC items will be inserted here -->
+        </ul>
+      </nav>
+
       <section>
 
       {{ content }}
@@ -135,6 +137,9 @@
           }
 
           var li = document.createElement('li');
+          li.style.display = 'inline';
+          li.style.marginRight = '15px';
+
           var a = document.createElement('a');
           a.href = '#' + header.id;
           a.textContent = header.textContent;
