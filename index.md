@@ -12,6 +12,8 @@ I'm Tao Yang (pronounced [tau](https://stayt1.github.io/assets/files/tao.mp3) yo
 <p style="color: red;">☝🤓Open to any kind of collaboration, feel free to shoot me an email if you have any ideas!</p>
 <p style="color: blue;">☝🤓Aim to make real impart and publish papers at venues like IEEE S&P, USENIX SEC, CCS, NDSS, NeurIPS, ICML, ICLR, ACL, AAAI, IJCAI, KDD, SIGIR, SIGMOD, CHI, CSCW, WWW and EMNLP.</p>
 
+
+<div style="display:none">
 ## Research Interests
 
 I have a strong background in Statistics and Machine Learning, capable of connecting theoretical concepts to real-world problems to address privacy and security concerns in people’s daily live:
@@ -19,7 +21,8 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 - **Topic1**: Privacy/Security issues in Machine Learning
 - **Topic2**: Machine Learning for Privacy/Security
 - **Topic3**: Privacy/Security concerns in real-world life
-
+</div>
+  
 ## News
 - **[Sep. 2024]** One paper for Machine Learning in Password Security is accepted by IEEE S&P (Oakland) 2025. 🎉
 - **[Sep. 2024]** One paper for Diffential Privacy in Embedding is accepted by EMNLP 2024. 🎉
@@ -42,5 +45,5 @@ I have a strong background in Statistics and Machine Learning, capable of connec
 
 ## Miscellaneous
 - English: TOEFL 106
-- Scholarship: China National Scholarship (1%), Tianjin Government Scholarship, Ming-Shan-Yun-Neng Scholarship,  Provincial Outstanding Student (1%)
+- Scholarship: China Master National Scholarship (1%), Tianjin Government Scholarship, Ming-Shan-Yun-Neng Scholarship,  Provincial Outstanding Student (1%)
 - Motto: Youth neglects study; age regrets delay.
