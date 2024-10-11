@@ -10,7 +10,7 @@ I'm Tao Yang (pronounced [tau](https://stayt1.github.io/assets/files/tao.mp3) yo
 
 🌞 Some people are just lucky. You can make yourself one of them. 
 <p style="color: red;">☝🤓Open to any kind of collaboration, feel free to shoot me an email if you have any ideas!</p>
-<p style="color: blue;">☝🤓Aim to **make real impart** and publish papers at venues like IEEE S&P, USENIX SEC, CCS, NDSS, NIPS, ICML, ICLR ,ACL and EMNLP.</p>
+<p style="color: blue;">☝🤓Aim to make real impart and publish papers at venues like IEEE S&P, USENIX SEC, CCS, NDSS, NIPS, ICML, ICLR ,ACL and EMNLP.</p>
 
 ## Research Interests
 
